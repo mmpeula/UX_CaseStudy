@@ -8,9 +8,6 @@ Prácticas Diseño Interfaces de Usuario
 
 
 
-Actualizado: 04/03/2026
-
-
 
 
 ## Paso 0 My UX-Case Study
@@ -55,15 +52,32 @@ Miembros y nombre del equipo:
 <br>
 
 ## Paso 1. UX User & Desk Research & Analisis 
-
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 1.a User Reseach Plan
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+### **Propósitos y metas**
+Esta investigación se centrará en adquirir información sobre el tema de la **hostelería "Fast-Casual" y hamburgueserías gourmet**. Con esta investigación se busca obtener conocimientos sobre la interacción entre la plataforma digital y la experiencia física en el local, ya que los conocimientos con los que partimos sobre la gestión de reservas y personalización en este sector son nulos.
+
+### **Participantes de la investigación**
+Estamos hablando del campo de la **Gastronomía Gourmet**, por lo que la cantidad de personas que pueden interesarnos y de la que podemos obtener información sobre este tema es bastante extensa e incluye:
+
+* **Dueños de locales**
+    Estos nos permitirán obtener un conocimiento base sobre el negocio y el punto de vista del emprendedor en el campo de la hamburguesa de autor.
+* **Empleados de los establecimientos**
+    Nos ofrecerá una vista similar a la anterior, enfocada en la operativa diaria y el trato directo con el cliente.
+* **Clientes habituales**
+    Nos permitirá obtener el punto de vista del usuario sobre el campo, saber qué es lo que el usuario típico quiere y necesita de una interfaz de reserva.
+* **Potenciales consumidores, como por ejemplo turistas en Granada.**
+    Nos permitirá saber cuál es el punto de vista de alguien que busca una opción segura y exclusiva pero no conoce el funcionamiento previo del local.
+
+### **Métodos y Procedimientos a usar**
+Se realizarán entrevistas a los potenciales participantes listados arriba (ya sean espontáneas o acordadas de antemano). La duración de las entrevistas dependerá del entrevistado, ya que la información que se espera sacar de cada participante será distinta. Las preguntas realizadas durante la entrevista incluirán temas como:
+
+* ¿Cómo describirías la oferta de hamburguesas gourmet actual en tu negocio o en la región de Granada?
+* ¿Cuáles son las tendencias actuales en personalización y pedidos digitales que crees que están marcando el mercado?
+* ¿Qué preguntas o dificultades manifiestan con más frecuencia los clientes al realizar una reserva o consultar la carta online?
+* ¿Cuáles son tus expectativas de rapidez y diseño visual cuando visitas un portal gastronómico nuevo? 
 
 
 ### 1.b Competitive Analysis
