@@ -92,11 +92,11 @@ Se realizarán entrevistas a los potenciales participantes listados arriba (ya s
 -----
 Por un lado tenemos a **David Reyes**, un joven estudiante nativo digital muy activo en redes sociales que busca rapidez y planes grupales en tendencia.
 
-
 ![Usuario #1](P1/Persona1.png)
 
-Por otro lado tenemos a **Marta Jiménez**, una arquitecta y madre de familia en viaje de turismo que necesita planificar con seguridad y detalle su experiencia gastronómica.
+Por otro lado tenemos a **Sofy Brown**, una arquitecta y madre de familia en viaje de turismo que necesita planificar con seguridad y detalle su experiencia gastronómica.
 
+![Usuario #1](P1/Persona2.png)
 
 
 ### 1.d User Journey Map
