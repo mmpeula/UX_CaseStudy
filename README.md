@@ -90,8 +90,13 @@ Se realizarán entrevistas a los potenciales participantes listados arriba (ya s
 ### 1.c Personas
 ![Método UX](img/Persona.png) 
 -----
+Por un lado tenemos a **David Reyes**, un joven estudiante nativo digital muy activo en redes sociales que busca rapidez y planes grupales en tendencia.
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+
+![Usuario #1](P1/Persona1.png)
+
+Por otro lado tenemos a **Marta Jiménez**, una arquitecta y madre de familia en viaje de turismo que necesita planificar con seguridad y detalle su experiencia gastronómica.
+
 
 
 ### 1.d User Journey Map
