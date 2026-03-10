@@ -5,20 +5,9 @@ Prácticas Diseño Interfaces de Usuario
 * [Guía para crea tu Case Study](Guia_CaseStudy.md)
 * Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
 
-
-
-
-
-
 ## Paso 0 My UX-Case Study
 ![Método UX](img/caseStudy.png) 
 -----
-
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
-
-
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
 
 Grupo: DIU3.alenmar.  Curso: 2025/26 
 
@@ -45,10 +34,6 @@ Miembros y nombre del equipo:
 
 # Proceso de Diseño 
 
-
-
-
-
 <br>
 
 ## Paso 1. UX User & Desk Research & Analisis 
@@ -56,28 +41,36 @@ Miembros y nombre del equipo:
 ![Método UX](img/Competitive.png) 
 -----
 
-### **Propósitos y metas**
-Esta investigación se centrará en adquirir información sobre el tema de la **hostelería "Fast-Casual" y hamburgueserías gourmet**. Con esta investigación se busca obtener conocimientos sobre la interacción entre la plataforma digital y la experiencia física en el local, ya que los conocimientos con los que partimos sobre la gestión de reservas y personalización en este sector son nulos.
+### 1. Antecedentes y Objetivos (The "Why")
+* **Contexto:** Evaluar la usabilidad de la plataforma web de **Goiko** (escritorio y móvil) para detectar puntos de fricción en la experiencia de usuario antes de proponer mejoras alineadas con la estrategia turística de Granada 2031.
+* **Objetivos de investigación:** * Validar si el flujo de reserva permite confirmar una mesa en menos de 60 segundos.
+    * Evaluar la visibilidad y claridad de la información sobre alérgenos y productos locales (hamburguesa especial de Granada).
+* **Experiencia del equipo:** Actuamos como **observadores**, analizando cómo la interfaz traduce la experiencia física de una hamburguesería gourmet al entorno digital.
 
-### **Participantes de la investigación**
-Estamos hablando del campo de la **Gastronomía Gourmet**, por lo que la cantidad de personas que pueden interesarnos y de la que podemos obtener información sobre este tema es bastante extensa e incluye:
+### 2. Metodología (The "How")
+Siguiendo el Framework de Christian Rohrer, aplicaremos:
+* **Cualitativa :** Entrevistas semiestructuradas para conocer la percepción de marca.
+* **Cualitativa:** Test de usabilidad mediante la técnica de "Think Aloud" para observar problemas de navegación en tiempo real.
+* **Cuantitativa:** Aplicación del **cuestionario SUS (System Usability Scale)** tras la realización de las tareas para obtener una métrica de satisfacción estandarizada.
 
-* **Dueños de locales**
-    Estos nos permitirán obtener un conocimiento base sobre el negocio y el punto de vista del emprendedor en el campo de la hamburguesa de autor.
-* **Empleados de los establecimientos**
-    Nos ofrecerá una vista similar a la anterior, enfocada en la operativa diaria y el trato directo con el cliente.
-* **Clientes habituales**
-    Nos permitirá obtener el punto de vista del usuario sobre el campo, saber qué es lo que el usuario típico quiere y necesita de una interfaz de reserva.
-* **Potenciales consumidores, como por ejemplo turistas en Granada.**
-    Nos permitirá saber cuál es el punto de vista de alguien que busca una opción segura y exclusiva pero no conoce el funcionamiento previo del local.
+### 3. Perfil de los Participantes (The "Who")
+Se han seleccionado perfiles que representan los extremos del uso tecnológico:
+* **Criterios de inclusión:** Usuarios residentes o turistas en Granada, de 20 a 50 años, usuarios habituales de smartphone.
+* **Segmentación:**
+    * **David Reyes:** Estudiante universitario, nativo digital, busca rapidez e impacto visual.
+    * **Sofy Brown:** Profesional y madre de familia, busca seguridad, planificación y detalles sobre alérgenos.
 
-### **Métodos y Procedimientos a usar**
-Se realizarán entrevistas a los potenciales participantes listados arriba (ya sean espontáneas o acordadas de antemano). La duración de las entrevistas dependerá del entrevistado, ya que la información que se espera sacar de cada participante será distinta. Las preguntas realizadas durante la entrevista incluirán temas como:
+### 4. Guion y Tareas (The "What")
+Se solicitará a los usuarios completar las siguientes acciones en la web de Goiko:
+1. **Búsqueda de producto:** "Localiza los ingredientes de la hamburguesa BEST SELLER".
+2. **Conversión/Reserva:** "Reserva mesa para 4 personas el próximo sábado a las 21:00h en el local de la calle Recogidas".
+3. **Consulta técnica:** "Encuentra la sección de alérgenos y verifica las opciones para celíacos".
 
-* ¿Cómo describirías la oferta de hamburguesas gourmet actual en tu negocio o en la región de Granada?
-* ¿Cuáles son las tendencias actuales en personalización y pedidos digitales que crees que están marcando el mercado?
-* ¿Qué preguntas o dificultades manifiestan con más frecuencia los clientes al realizar una reserva o consultar la carta online?
-* ¿Cuáles son tus expectativas de rapidez y diseño visual cuando visitas un portal gastronómico nuevo? 
+### 5. Cronograma y Entregables
+Lista de documentos resultantes de la investigación:
+* **User Persona:** Fichas de David y Sofy.
+* **Experience Journey Map:** Mapeo de la experiencia de ambos perfiles.
+* **Resumen Ejecutivo:** Informe final con recomendaciones de mejora de usabilidad. 
 
 
 ### 1.b Competitive Analysis
@@ -92,9 +85,12 @@ Se realizarán entrevistas a los potenciales participantes listados arriba (ya s
 -----
 Por un lado tenemos a **David Reyes**, un joven estudiante nativo digital muy activo en redes sociales que busca rapidez y planes grupales en tendencia.
 
+
 ![Usuario #1](P1/Persona1.png)
 
+
 Por otro lado tenemos a **Sofy Brown**, una arquitecta y madre de familia en viaje de turismo que necesita planificar con seguridad y detalle su experiencia gastronómica.
+
 
 ![Usuario #1](P1/Persona2.png)
 
