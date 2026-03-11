@@ -129,9 +129,7 @@ Sin embargo, a nivel de diseño y usabilidad funcional, la página presenta aspe
 
 Finalmente, el proceso de reserva tiene un margen de mejora considerable. Aunque es funcional, el formulario resulta excesivamente largo y carece de una validación en tiempo real robusta. Al igual que ocurre con la inconsistencia en el formato de sus botones de acción (CTAs), el sistema no siempre indica claramente qué campos son obligatorios hasta que se intenta enviar el formulario, lo que genera frustración. En definitiva, es una web diseñada para impactar emocionalmente, pero que descuida la eficiencia operativa del usuario que busca completar una tarea de forma rápida y sin distracciones.
 
-- **Enlace al documento:** [Goiko_Usability_Review_2026.xlsx](https://github.com/user-attachments/files/25900687/Goiko_Usability_Review_2026.xlsx)
-- **URL:** https://www.goiko.com/es/
-- **Valoración numérica:** 72/100
+- **Enlace al documento:** [Goiko_Usability_Review_2026](P1/Goiko_Usability_Review_2026.pdf)
 
 <br>
 
