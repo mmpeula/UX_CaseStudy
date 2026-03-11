@@ -76,8 +76,19 @@ Lista de documentos resultantes de la investigación:
 ### 1.b Competitive Analysis
 ![Método UX](img/Competitive.png) 
 -----
+Hemos decidido de entre las opciones centrarnos en la experiencia de comida rápida gourmet con la página de "Goiko". Consideramos que hay más aspectos que mejorar en esta página frente a las otras, especialmente en la saturación de elementos visuales, por lo que podremos detectar oportunidades de mejora y optimizar la usabilidad de esta plataforma.
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+Como vamos a centrarnos en el tema de las hamburgueserías premium, analizaremos "Goiko" frente a otras páginas web como "Mostaza Green" y "Kiko Undefiled Burger", que son empresas del sector con enfoques distintos en cuanto a marketing y producto. Aunque la web de "Goiko" es la más robusta tecnológicamente, su flujo de reserva puede resultar confuso. Por otro lado, en "Mostaza Green" el enfoque es más local y cercano, con una interfaz más sencilla de navegar. Finalmente, "Kiko Undefiled Burger" apuesta por un estilo minimalista y artesanal, siendo muy útil para comparar cómo se gestiona la exclusividad del producto sin distracciones.
+
+Ahora hemos realizado un análisis para comparar los puntos fuertes de las tres páginas y detectar posibles áreas de mejora, tomando como referencia los aspectos positivos de las otras webs:
+
+https://www.goiko.com/es/
+
+https://mostazagreen.com/
+
+https://kikoundefiledburger.com/
+
+![Usuario #1](P1/comparativa.png)
 
 
 ### 1.c Personas
@@ -92,7 +103,7 @@ Por un lado tenemos a **David Reyes**, un joven estudiante nativo digital muy ac
 Por otro lado tenemos a **Sofy Brown**, una arquitecta y madre de familia en viaje de turismo que necesita planificar con seguridad y detalle su experiencia gastronómica.
 
 
-![Usuario #1](P1/Persona2.png)
+![Usuario #2](P1/Persona2.png)
 
 
 ### 1.d User Journey Map
@@ -136,9 +147,18 @@ Por otro lado tenemos a **Sofy Brown**, una arquitecta y madre de familia en via
 ### 2.b ScopeCanvas
 ![Método UX](img/ScopeCanvas.png)
 ----
+Hemos decidido de entre las opciones centrarnos en la experiencia de comida rápida gourmet con la página de "Goiko". Consideramos que hay más aspectos que mejorar en esta página frente a las otras, especialmente en la saturación de elementos visuales, por lo que podremos detectar oportunidades de mejora y optimizar la usabilidad de esta plataforma.
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
+Como vamos a centrarnos en el tema de las hamburgueserías premium, analizaremos "Goiko" frente a otras páginas web como "Mostaza Green" y "Kiko Undefiled Burger", que son empresas del sector con enfoques distintos en cuanto a marketing y producto. Aunque la web de "Goiko" es la más robusta tecnológicamente, su flujo de reserva puede resultar confuso. Por otro lado, en "Mostaza Green" el enfoque es más local y cercano, con una interfaz más sencilla de navegar. Finalmente, "Kiko Undefiled Burger" apuesta por un estilo minimalista y artesanal, siendo muy útil para comparar cómo se gestiona la exclusividad del producto sin distracciones.
+
+Ahora hemos realizado un análisis para comparar los puntos fuertes de las tres páginas y detectar posibles áreas de mejora, tomando como referencia los aspectos positivos de las otras webs:
+
+https://www.goiko.com/es/
+
+https://mostazagreen.com/
+
+https://kikoundefiledburger.com/
+<img width="5884" height="4069" alt="Competitor Analysis  DIU23  (Copy) (Copia)" src="https://github.com/user-attachments/assets/38ff9fbc-2a39-4fa7-b006-2cddf41aeb76" />
 
 
 
