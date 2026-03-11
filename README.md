@@ -89,7 +89,7 @@ https://mostazagreen.com/
 
 https://kikoundefiledburger.com/
 
-![Usuario #1](P1/comparativa.png)
+![CompetitorAnalysis](P1/CompetitorAnalysis.png)
 
 
 ### 1.c Personas
