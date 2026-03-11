@@ -49,10 +49,9 @@ Miembros y nombre del equipo:
 * **Experiencia del equipo:** Actuamos como **observadores**, analizando cómo la interfaz traduce la experiencia física de una hamburguesería gourmet al entorno digital.
 
 ### 2. Metodología (The "How")
-Siguiendo el Framework de Christian Rohrer, aplicaremos:
 * **Cualitativa :** Entrevistas semiestructuradas para conocer la percepción de marca.
-* **Cualitativa:** Test de usabilidad mediante la técnica de "Think Aloud" para observar problemas de navegación en tiempo real.
-* **Cuantitativa:** Aplicación del **cuestionario SUS (System Usability Scale)** tras la realización de las tareas para obtener una métrica de satisfacción estandarizada.
+* **Cualitativa:** Test de usabilidad para observar problemas de navegación en tiempo real.
+* **Cuantitativa:** Tras la realización de las tareas, obtener una métrica de satisfacción estandarizada.
 
 ### 3. Perfil de los Participantes (The "Who")
 Se han seleccionado perfiles que representan los extremos del uso tecnológico:
@@ -133,7 +132,7 @@ En cuanto a la estética, Goiko ofrece una interfaz visualmente impactante y pro
 
 Sin embargo, a nivel de diseño y usabilidad funcional, la página presenta aspectos negativos que penalizan la experiencia del usuario. El principal problema es la saturación visual y el exceso de "ruido" publicitario; la aparición constante de pop-ups y banners promocionales interrumpe tareas críticas, como la reserva de mesa. Se detecta una falta de ayuda contextual clara: al personalizar ingredientes o elegir puntos de carne, el sistema asume que el usuario conoce todas las opciones sin ofrecer explicaciones breves, lo que puede generar dudas. Además, existe una carencia importante de migas de pan (breadcrumbs), lo que provoca que, tras profundizar en la carta o en el blog, el usuario pierda la noción de su ubicación exacta y deba recurrir constantemente al menú principal para retroceder.
 
-Finalmente, el proceso de reserva tiene un margen de mejora considerable. Aunque es funcional, el formulario resulta excesivamente largo y carece de una validación en tiempo real robusta. Al igual que ocurre con la inconsistencia en el formato de sus botones de acción (CTAs), el sistema no siempre indica claramente qué campos son obligatorios hasta que se intenta enviar el formulario, lo que genera frustración. En definitiva, es una web diseñada para impactar emocionalmente, pero que descuida la eficiencia operativa del usuario que busca completar una tarea de forma rápida y sin distracciones.
+Finalmente, el proceso de reserva tiene un margen de mejora considerable. Aunque es funcional, el formulario resulta excesivamente largo y carece de una validación en tiempo real robusta. Al igual que ocurre con la inconsistencia en el formato de sus botones de acción, el sistema no siempre indica claramente qué campos son obligatorios hasta que se intenta enviar el formulario, lo que genera frustración. En definitiva, es una web diseñada para impactar emocionalmente, pero que descuida la eficiencia operativa del usuario que busca completar una tarea de forma rápida y sin distracciones.
 
 - **Enlace al documento:** [Goiko_Usability_Review_2026](P1/Goiko_Usability_Review_2026.pdf)
 
