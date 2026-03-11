@@ -23,3 +23,18 @@ https://mostazagreen.com/
 
 https://kikoundefiledburger.com/
 <img width="5884" height="4069" alt="Competitor Analysis  DIU23  (Copy) (Copia)" src="https://github.com/user-attachments/assets/38ff9fbc-2a39-4fa7-b006-2cddf41aeb76" />
+
+
+
+
+## 1.e 1.e Usability Review
+La página de Goiko ha obtenido un 72 sobre 100
+
+En cuanto a la estética, Goiko ofrece una interfaz visualmente impactante y profesional. El uso de fotografía gastronómica de alta resolución y su paleta de colores corporativa (negro y amarillo) logran una inmersión inmediata que estimula el apetito y refuerza su identidad de marca. Navegar por su carta es una experiencia placentera a la vista, manteniendo una coherencia gráfica de alto nivel en casi todas sus secciones.
+
+Sin embargo, a nivel de diseño y usabilidad funcional, la página presenta aspectos negativos que penalizan la experiencia del usuario. El principal problema es la saturación visual y el exceso de "ruido" publicitario; la aparición constante de pop-ups y banners promocionales interrumpe tareas críticas, como la reserva de mesa. Se detecta una falta de ayuda contextual clara: al personalizar ingredientes o elegir puntos de carne, el sistema asume que el usuario conoce todas las opciones sin ofrecer explicaciones breves, lo que puede generar dudas. Además, existe una carencia importante de migas de pan (breadcrumbs), lo que provoca que, tras profundizar en la carta o en el blog, el usuario pierda la noción de su ubicación exacta y deba recurrir constantemente al menú principal para retroceder.
+
+Finalmente, el proceso de reserva tiene un margen de mejora considerable. Aunque es funcional, el formulario resulta excesivamente largo y carece de una validación en tiempo real robusta. Al igual que ocurre con la inconsistencia en el formato de sus botones de acción (CTAs), el sistema no siempre indica claramente qué campos son obligatorios hasta que se intenta enviar el formulario, lo que genera frustración. En definitiva, es una web diseñada para impactar emocionalmente, pero que descuida la eficiencia operativa del usuario que busca completar una tarea de forma rápida y sin distracciones.
+
+[Goiko_Usability_Review_2026.xlsx](https://github.com/user-attachments/files/25900687/Goiko_Usability_Review_2026.xlsx)
+
