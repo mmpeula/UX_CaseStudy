@@ -27,7 +27,7 @@ https://kikoundefiledburger.com/
 
 
 
-## 1.e 1.e Usability Review
+## 1.e Usability Review
 La página de Goiko ha obtenido un 72 sobre 100
 
 En cuanto a la estética, Goiko ofrece una interfaz visualmente impactante y profesional. El uso de fotografía gastronómica de alta resolución y su paleta de colores corporativa (negro y amarillo) logran una inmersión inmediata que estimula el apetito y refuerza su identidad de marca. Navegar por su carta es una experiencia placentera a la vista, manteniendo una coherencia gráfica de alto nivel en casi todas sus secciones.
