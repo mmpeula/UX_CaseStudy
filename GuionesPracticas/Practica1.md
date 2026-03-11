@@ -59,7 +59,7 @@ Evaluar los principios de usabilidad y la experiencia de usuario. Para ello, hab
 <br>
 
 ### 2. [USER RESEARCH PLAN]
-* Hacer un briefing (150-200palabras) recopilando información sobre lo que conoces de ese contexto y cómo enfocarías tu estrategia para tener una mejor comprensión y análisis.
+* Hacer un briefing (80-120palabras) recopilando información sobre lo que conoces de ese contexto y cómo enfocarías tu estrategia para tener una mejor comprensión y análisis.
 
 <img src="https://public-images.interaction-design.org/tags/td-what-is-user-research-illustration-02.png" width="350px"> <img src="https://media.nngroup.com/media/editor/2024/10/13/research-plan.png" width="300px">
 
