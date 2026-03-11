@@ -111,10 +111,16 @@ Por otro lado tenemos a **Sofy Brown**, una arquitecta y madre de familia en via
 
 
 ### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
+![Método UX](img/JourneyMap.png)
 ----
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+La primera experiencia, de **David Reyes**, representa a un usuario nativo digital que descubre Goiko a través de TikTok y quiere organizar una quedada rápida con sus colegas. Este perfil es muy habitual: jóvenes que buscan inmediatez, reservan desde el móvil a última hora y valoran poder compartir la experiencia en redes. Los principales pain points detectados son la lentitud de carga en móvil, la falta de un buscador por ciudad y un formulario de reserva demasiado extenso.
+
+![Journey Map David](P1/User%20Journey%20Map-David.png)
+
+La segunda experiencia, de **Sofy Brown**, representa a una usuaria planificadora que viaja con familia y tiene necesidades específicas (hijo celíaco). Este perfil también es frecuente en turismo gastronómico: usuarios que investigan antes de ir, necesitan información clara sobre alérgenos y quieren asegurarse de que el restaurante cumple sus expectativas. Los pain points principales son la dificultad para encontrar información de alérgenos, el PDF poco accesible y la falta de filtros en la carta.
+
+![Journey Map Sofy](P1/User%20Journey%20Map-Sofy.png)  
 
 
 ### 1.e Usability Review
