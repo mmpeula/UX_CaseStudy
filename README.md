@@ -136,6 +136,10 @@ Finalmente, el proceso de reserva tiene un margen de mejora considerable. Aunque
 
 - **Enlace al documento:** [Goiko_Usability_Review_2026](P1/Goiko_Usability_Review_2026.pdf)
 
+- ### 1.e Briefing
+
+----
+
 <br>
 
 ## Paso 2. UX Design  
