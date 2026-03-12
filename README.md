@@ -138,8 +138,19 @@ Finalmente, el proceso de reserva tiene un margen de mejora considerable. Aunque
   
 
 ### 1.f Briefing
-
 ----
+
+Tras realizar un análisis técnico y de usabilidad de la plataforma de Goiko, el diagnóstico revela una **desconexión crítica** entre el diseño visual (UI) y la arquitectura funcional (UX). Aunque el frontend es de alto impacto visual (72/100), la plataforma presenta "bloqueos" operativos que lastran la tasa de conversión.
+
+#### Hallazgos Técnicos y de Interfaz:
+
+* **Persistencia de Sesión e Idioma:** Se ha identificado un bug de persistencia: el selector de idioma no mantiene el estado al navegar entre endpoints o pestañas, forzando el retorno al español. Esto rompe la experiencia para el segmento de usuarios internacionales, generando una fricción innecesaria en el flujo de navegación.
+* **Arquitectura de la Información y Navegación:** La ausencia de breadcrumbs (migas de pan) y una jerarquía difusa provocan que el usuario pierda el contexto de su ubicación tras realizar tres o más clics. Además, el acceso al Club Goiko no es intuitivo; la lógica de negocio de las promociones está mal implementada a nivel de interfaz, ocultando los beneficios tras capas de navegación poco claras.
+* **Optimización del Flujo de Reserva:** El formulario de reserva presenta una carga cognitiva excesiva. Carece de validación de datos en tiempo real (lado del cliente), lo que provoca errores de envío frustrantes. A esto se suma el "ruido" de scripts publicitarios y pop-ups que interrumpen tareas críticas, penalizando la eficiencia del proceso.
+
+#### Recomendaciones Técnicas:
+
+Es nceserio corregir la gestión de estados del idioma y sustituir los menús de alérgenos en formato PDF por una base de datos consultable y filtrable. Se recomienda una simplificación del checkout de reserva y una reestructuración del módulo de fidelización para reducir la tasa de rebote y optimizar el rendimiento general de la plataforma.
 
 <br>
 
