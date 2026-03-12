@@ -43,7 +43,7 @@ Miembros y nombre del equipo:
 -----
 
 ### 1. Antecedentes y Objetivos (The "Why")
-* **Contexto:** Evaluar la usabilidad de la plataforma web de **Goiko** (escritorio y móvil) para detectar puntos de fricción en la experiencia de usuario antes de proponer mejoras alineadas con la estrategia turística de Granada 2031.
+* **Contexto:** Evaluar la usabilidad de la plataforma web de **Goiko** (escritorio y móvil) para detectar puntos de fricción en la experiencia de usuario.
 * **Objetivos de investigación:** * Validar si el flujo de reserva permite confirmar una mesa en menos de 60 segundos.
     * Evaluar la visibilidad y claridad de la información sobre alérgenos y productos locales (hamburguesa especial de Granada).
 * **Experiencia del equipo:** Actuamos como **observadores**, analizando cómo la interfaz traduce la experiencia física de una hamburguesería gourmet al entorno digital.
@@ -55,7 +55,7 @@ Miembros y nombre del equipo:
 
 ### 3. Perfil de los Participantes (The "Who")
 Se han seleccionado perfiles que representan los extremos del uso tecnológico:
-* **Criterios de inclusión:** Usuarios residentes o turistas en Granada, de 20 a 50 años, usuarios habituales de smartphone.
+* **Criterios de inclusión:** Usuarios residentes o turistas en Granada, de 20 a 50 años, usuarios habituales de móvil..
 * **Segmentación:**
     * **David Reyes:** Estudiante universitario, nativo digital, busca rapidez e impacto visual.
     * **Sofy Brown:** Profesional y madre de familia, busca seguridad, planificación y detalles sobre alérgenos.
