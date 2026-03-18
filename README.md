@@ -162,7 +162,7 @@ Es nceserio corregir la gestión de estados del idioma y sustituir los menús de
 ![Método UX](img/feedback-capture-grid.png) 
 ----
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
+A continuación, se presenta el mapa de empatía elaborado a partir de las experiencias y necesidades identificadas en la práctica anterior, con el objetivo de comprender mejor al usuario y guiar el diseño centrado en sus emociones, pensamientos y comportamientos.
 
 
  Interesante | Críticas     
@@ -183,14 +183,13 @@ Es nceserio corregir la gestión de estados del idioma y sustituir los menús de
 ![Método UX](img/Sitemap.png) 
 -----
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+Este diagrama muestra el recorrido que realiza el usuario dentro de nuestra propuesta digital, desde el acceso inicial hasta la consecución de sus objetivos principales. Nos permite identificar los pasos clave, optimizar la experiencia de navegación y garantizar que cada interacción esté alineada con las necesidades y expectativas del usuario.
 
 
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 ----
-
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+Este sitemap representa la arquitectura de información propuesta para nuestro proyecto. Su objetivo es organizar de forma lógica y jerárquica los contenidos y secciones de la interfaz, facilitando la navegación del usuario y asegurando una experiencia clara, intuitiva y coherente desde el inicio.
 
 Término | Significado     
 | ------------- | -------
