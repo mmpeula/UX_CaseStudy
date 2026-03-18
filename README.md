@@ -14,11 +14,11 @@ Grupo: DIU3.alenmar.  Curso: 2025/26
 
 Nombre del Proyecto: 
 
->>> Decida el nombre corto de su propuesta en la práctica 2 
+GOIKO
 
 Descripción: 
 
->>> Describa la idea de su producto en la práctica 2 
+Esta plataforma de hamburguesas gourmet prioriza una navegación sencilla y visual para que el usuario pida en pocos clics. Fomenta la comunidad mediante votaciones interactivas de la hamburgues del mes y un muro social que integra las fotos de los clientes en tiempo real. Está diseñada para generar tráfico constante al local, convirtiendo cada visita en una experiencia digital fluida, moderna y participativa.
 
 Logotipo: 
 
