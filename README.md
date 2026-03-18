@@ -42,31 +42,31 @@ Miembros y nombre del equipo:
 ![Método UX](img/Competitive.png) 
 -----
 
-### 1. Antecedentes y Objetivos (The "Why")
+#### 1. Antecedentes y Objetivos (The "Why")
 * **Contexto:** Evaluar la usabilidad de la plataforma web de **Goiko** (escritorio y móvil) para detectar puntos de fricción en la experiencia de usuario.
 * **Objetivos de investigación:** * Validar si el flujo de reserva permite confirmar una mesa en menos de 60 segundos.
     * Evaluar la visibilidad y claridad de la información sobre alérgenos y productos locales (hamburguesa especial de Granada).
 * **Experiencia del equipo:** Actuamos como **observadores**, analizando cómo la interfaz traduce la experiencia física de una hamburguesería gourmet al entorno digital.
 
-### 2. Metodología (The "How")
+#### 2. Metodología (The "How")
 * **Cualitativa :** Entrevistas semiestructuradas para conocer la percepción de marca.
 * **Cualitativa:** Test de usabilidad para observar problemas de navegación en tiempo real.
 * **Cuantitativa:** Tras la realización de las tareas, obtener una métrica de satisfacción estandarizada.
 
-### 3. Perfil de los Participantes (The "Who")
+#### 3. Perfil de los Participantes (The "Who")
 Se han seleccionado perfiles que representan los extremos del uso tecnológico:
 * **Criterios de inclusión:** Usuarios residentes o turistas en Granada, de 20 a 50 años, usuarios habituales de móvil..
 * **Segmentación:**
     * **David Reyes:** Estudiante universitario, nativo digital, busca rapidez e impacto visual.
     * **Sofy Brown:** Profesional y madre de familia, busca seguridad, planificación y detalles sobre alérgenos.
 
-### 4. Guion y Tareas (The "What")
+#### 4. Guion y Tareas (The "What")
 Se solicitará a los usuarios completar las siguientes acciones en la web de Goiko:
 1. **Búsqueda de producto:** "Localiza los ingredientes de la hamburguesa BEST SELLER".
 2. **Conversión/Reserva:** "Reserva mesa para 4 personas el próximo sábado a las 21:00h en el local de la calle Recogidas".
 3. **Consulta técnica:** "Encuentra la sección de alérgenos y verifica las opciones para celíacos".
 
-### 5. Cronograma y Entregables
+#### 5. Cronograma y Entregables
 Lista de documentos resultantes de la investigación:
 * **User Persona:** Fichas de David y Sofy.
 * **Experience Journey Map:** Mapeo de la experiencia de ambos perfiles.
@@ -156,8 +156,6 @@ Es nceserio corregir la gestión de estados del idioma y sustituir los menús de
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
 ### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
 ![Método UX](img/feedback-capture-grid.png) 
 ----
@@ -170,8 +168,38 @@ A continuación, se presenta el mapa de empatía elaborado a partir de las exper
   Preguntas | Nuevas ideas
   
     
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
+#### Estrategia de Revitalización Digital: Hamburguesería
+
+##### 1. El Problema 🍔
+Actualmente, la plataforma digital presenta una **interfaz obsoleta y poco funcional**. Esta deficiencia técnica y estética genera una fricción innecesaria en el proceso de compra, lo que deriva en las siguientes consecuencias:
+
+* **Abandono de Reserva:** Los usuarios desisten antes de hacer su reserva debido a la mala experiencia de usuario (UX).
+* **Desconexión Digital:** Falta de uso generalizada por parte de los clientes habituales.
+* **Oportunidad Perdida:** No existe un puente eficaz para fidelizar a los consumidores presenciales.
+
+---
+
+#### 2. Hipótesis y Propuesta de Valor 💡
+
+##### El Enfoque "Ultra-Intuitivo"
+Planteamos que, al rediseñar la web bajo un enfoque centrado en la **usabilidad y la comunidad**, incrementaremos significativamente el tráfico y la recurrencia de los clientes.
+
+##### Valor Añadido: Experiencia Participativa
+La plataforma se transformará en un espacio de interacción activa mediante la dinámica de la **"Hamburguesa del Mes"**:
+
+1.  **Captación en Punto de Venta:** Implementación de códigos QR en el local físico.
+2.  **Gamificación:** Invitación directa a los usuarios para votar por su creación favorita.
+3.  **Incentivo Real:** Sorteos exclusivos para probar la *burger* ganadora.
+
+> **Tesis Principal:** Si incentivamos la votación mediante sorteos, generaremos una expectativa mensual que transformará una web estática en un generador de tráfico constante hacia el punto de venta físico.
+
+---
+
+#### 3. Tesis Principal 📌
+
+> "Si incentivamos la participación mediante una dinámica de votación y recompensas, transformaremos una web estática en un **motor de expectativa mensual**. Esto no solo mejora la usabilidad, sino que convierte la plataforma en un generador constante de tráfico hacia el punto de venta físico u online, fortaleciendo el engagement con la comunidad."
+
+---
 
 
 ### 2.b ScopeCanvas
