@@ -177,7 +177,6 @@ Actualmente, la plataforma digital presenta una **interfaz obsoleta y poco funci
 * **Desconexión Digital:** Falta de uso generalizada por parte de los clientes habituales.
 * **Oportunidad Perdida:** No existe un puente eficaz para fidelizar a los consumidores presenciales.
 
----
 
 #### 2. Hipótesis y Propuesta de Valor 💡
 
@@ -193,13 +192,9 @@ La plataforma se transformará en un espacio de interacción activa mediante la 
 
 > **Tesis Principal:** Si incentivamos la votación mediante sorteos, generaremos una expectativa mensual que transformará una web estática en un generador de tráfico constante hacia el punto de venta físico.
 
----
-
 #### 3. Tesis Principal 📌
 
 > "Si incentivamos la participación mediante una dinámica de votación y recompensas, transformaremos una web estática en un **motor de expectativa mensual**. Esto no solo mejora la usabilidad, sino que convierte la plataforma en un generador constante de tráfico hacia el punto de venta físico u online, fortaleciendo el engagement con la comunidad."
-
----
 
 
 ### 2.b ScopeCanvas
