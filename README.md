@@ -165,10 +165,8 @@ A continuación, se presenta el mapa de empatía elaborado a partir de las exper
 ![MapaEmpatia](P2/MapadeEmpatía.png)
 
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
+A modo general de ambos usuarios, y para remarcar los aspectos más importantes, recurrimos también a un Feedback Capture Grid: 
+
     
 #### Estrategia de Revitalización Digital: Hamburguesería
 
