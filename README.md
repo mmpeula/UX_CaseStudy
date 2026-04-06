@@ -167,6 +167,8 @@ A continuación, se presenta el mapa de empatía elaborado a partir de las exper
 
 A modo general de ambos usuarios, y para remarcar los aspectos más importantes, recurrimos también a un Feedback Capture Grid: 
 
+![FeedbackGrid](P2/FeedbackGrid.png)
+
     
 #### Estrategia de Revitalización Digital: Hamburguesería
 
