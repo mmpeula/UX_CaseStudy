@@ -162,7 +162,7 @@ Es nceserio corregir la gestión de estados del idioma y sustituir los menús de
 
 A continuación, se presenta el mapa de empatía elaborado a partir de las experiencias y necesidades identificadas en la práctica anterior, con el objetivo de comprender mejor al usuario y guiar el diseño centrado en sus emociones, pensamientos y comportamientos.
 
-![MapaEmpatia](P2/MapadeEmpatía.png)
+
 
 
 A modo general de ambos usuarios, y para remarcar los aspectos más importantes, recurrimos también a un Feedback Capture Grid: 
