@@ -223,14 +223,13 @@ En nuestra matriz de tareas de usuario, hemos recopilado las funciones de nuestr
 
 Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
 ### Votar hamburguesa del mes
-![votar](img/2c_votacion.png) 
+<img src="img/2c_votacion.png" width="500">
 
 ### Reservar mesa
-![reserva](img/2c_reserva.png) 
+<img src="img/2c_reserva.png" width="500">
 
-
-### Votar hamburguesa del mes
-![alergias](img/2c_alergias.png) 
+### Ver la carta (Alergias)
+<img src="img/2c_alergias.png" width="500">
 
 ![Método UX](img/Sitemap.png) 
 -----
