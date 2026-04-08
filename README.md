@@ -222,7 +222,15 @@ En nuestra matriz de tareas de usuario, hemos recopilado las funciones de nuestr
 | Resolver dudas con soporte | H | L | H |
 
 Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
-### 
+### Votar hamburguesa del mes
+![votar](img/2c_votacion.png) 
+
+### Reservar mesa
+![reserva](img/2c_reserva.png) 
+
+
+### Votar hamburguesa del mes
+![alergias](img/2c_alergias.png) 
 
 ![Método UX](img/Sitemap.png) 
 -----
