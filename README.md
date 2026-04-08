@@ -257,9 +257,6 @@ Término | Significado
 
 ## Paso 3. Mi UX-Case Study (diseño)
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-
 ### 3.a Moodboard
 ![Método UX](img/moodboard.png)
 -----
@@ -268,15 +265,7 @@ Término | Significado
 >>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
 >>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
 
-
-### 3.b Landing Page
-![Método UX](img/landing-page.png) 
-----
-
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
-
-
-### 3.c Guidelines
+### 3.b Guidelines
 ![Método UX](img/guidelines.png) 
 ----
 
@@ -284,7 +273,7 @@ Término | Significado
 >>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
 
 
-### 3.d Mockup
+### 3.c Mockup
 ![Método UX](img/mockup.png) 
 ----
 
