@@ -204,7 +204,26 @@ La plataforma se transformará en un espacio de interacción activa mediante la 
 
 
 
+
 ### 2.b User Flow (task) analysis 
+En nuestra matriz de tareas de usuario, hemos recopilado las funciones de nuestra web y como de relevante serían para cada tipo de usuario. Hemos añadido tres tipos de usuarios, dando las prioridades de alta (H), media (M) y baja (L):
+
+| Tarea | Clientes | Comunidad | Administradores |
+|---|---|---|---|
+| Iniciar sesión / registrarse | H | H | H |
+| Reservar mesa | H | M | H |
+| Consultar carta | H | H | M |
+| Filtrar por alérgenos | H | M | L |
+| Votar burger del mes | M | H | M |
+| Participar en sorteo | M | H | L |
+| Ver muro social / fotos | M | H | M |
+| Escanear QR en local | H | M | L |
+| Acceder al Club Goiko | M | H | M |
+| Resolver dudas con soporte | H | L | H |
+
+Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
+### 
+
 ![Método UX](img/Sitemap.png) 
 -----
 
