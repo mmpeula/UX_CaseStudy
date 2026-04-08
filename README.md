@@ -201,7 +201,7 @@ La plataforma se transformará en un espacio de interacción activa mediante la 
 
 ### 2.b ScopeCanvas
 
-![scope](img/2b_scopeCanvas.png) 
+![scope](P2/2b_scopeCanvas.png) 
 
 
 
@@ -223,13 +223,13 @@ En nuestra matriz de tareas de usuario, hemos recopilado las funciones de nuestr
 
 Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
 ### Votar hamburguesa del mes
-<img src="img/2c_votacion.png" width="500">
+<img src="P2/Votacion.png" width="500">
 
 ### Reservar mesa
-<img src="img/2c_reserva.png" width="500">
+<img src="P2/reservas.png" width="500">
 
 ### Ver la carta (Alergias)
-<img src="img/2c_alergias.png" width="500">
+<img src="P2/alergias.png" width="500">
 
 ![Método UX](img/Sitemap.png) 
 -----
