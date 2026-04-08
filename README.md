@@ -201,7 +201,7 @@ La plataforma se transformará en un espacio de interacción activa mediante la 
 
 ### 2.b ScopeCanvas
 
-
+![scope](img/2b_scopeCanvas.png) 
 
 
 
