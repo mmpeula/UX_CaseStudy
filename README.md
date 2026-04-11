@@ -253,7 +253,22 @@ Término | Significado
 ![Método UX](img/Wireframes.png) 
 -----
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+Para la creacion de los warframes se ha utilizado figma con varios de sus assets predeterminados.
+
+### Home Page
+![[HOMEPAGE](p2/) <br>
+### Home Page
+![HOMEPAGE2](p2/) <br>
+### Reservar
+![RESERVAR](p2/) <br>
+### Hacer Pedido
+![HACERPEDIDO](p2/) <br>
+### MyGOIKO (Perfil de Cliente)
+![MYGOIKO](p2/) <br>
+### Carta
+![CARTA](p2/) <br>
+### Deplegable Logo
+![DESPLEGABLELOGO](p2/) <br>
 
 <br>
 
