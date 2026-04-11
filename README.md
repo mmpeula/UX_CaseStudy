@@ -192,6 +192,8 @@ La plataforma se transformará en un espacio de interacción activa mediante la 
 2.  **Gamificación:** Invitación directa a los usuarios para votar por su creación favorita.
 3.  **Incentivo Real:** Sorteos exclusivos para probar la *burger* ganadora.
 
+También implementaremos la opción de comprar la "Hamburguesa del Mes" con un solo clic directamente desde la página principal.
+
 > **Tesis Principal:** Si incentivamos la votación mediante sorteos, generaremos una expectativa mensual que transformará una web estática en un generador de tráfico constante hacia el punto de venta físico.
 
 #### 3. Tesis Principal 📌
@@ -200,12 +202,17 @@ La plataforma se transformará en un espacio de interacción activa mediante la 
 
 
 ### 2.b ScopeCanvas
+![Método UX](img/ScopeCanvas.png)
+----
 
 ![scope](P2/2b_scopeCanvas.png) 
 
 
 
 ### 2.b User Flow (task) analysis 
+![Método UX](img/Sitemap.png)
+----
+
 En nuestra matriz de tareas de usuario, hemos recopilado las funciones de nuestra web y como de relevante serían para cada tipo de usuario. Hemos añadido tres tipos de usuarios, dando las prioridades de alta (H), media (M) y baja (L):
 
 | Tarea | Clientes | Comunidad | Administradores |
@@ -230,11 +237,6 @@ Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
 
 ### Ver la carta (Alergias)
 <img src="P2/alergias.png" width="500">
-
-![Método UX](img/Sitemap.png) 
------
-
-Este diagrama muestra el recorrido que realiza el usuario dentro de nuestra propuesta digital, desde el acceso inicial hasta la consecución de sus objetivos principales. Nos permite identificar los pasos clave, optimizar la experiencia de navegación y garantizar que cada interacción esté alineada con las necesidades y expectativas del usuario.
 
 
 ### 2.c IA: Sitemap + Labelling 
