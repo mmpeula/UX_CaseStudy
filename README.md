@@ -256,19 +256,19 @@ Término | Significado
 Para la creacion de los warframes se ha utilizado figma con varios de sus assets predeterminados.
 
 ### Home Page
-![[HOMEPAGE](p2/) <br>
-### Home Page
-![HOMEPAGE2](p2/) <br>
+![HOMEPAGE](P2/PáginaPrincipal.png) <br>
+
+![HOMEPAGE2](P2/PáginaPrincipal2.png) <br>
 ### Reservar
-![RESERVAR](p2/) <br>
+![RESERVAR](P2/Reservar.png) <br>
 ### Hacer Pedido
-![HACERPEDIDO](p2/) <br>
-### MyGOIKO (Perfil de Cliente)
-![MYGOIKO](p2/) <br>
+![HACERPEDIDO](P2/HacerPedido.png) <br>
+### MyGOIKO: Perfil de usuario
+![MYGOIKO](P2/MyGOIKO.png) <br>
 ### Carta
-![CARTA](p2/) <br>
+![CARTA](P2/Carta.png) <br>
 ### Deplegable Logo
-![DESPLEGABLELOGO](p2/) <br>
+![DESPLEGABLELOGO](P2/DesplegableLogo.png) <br>
 
 <br>
 
