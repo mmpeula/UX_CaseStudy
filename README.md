@@ -242,11 +242,54 @@ Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 ----
-Este sitemap representa la arquitectura de información propuesta para nuestro proyecto. Su objetivo es organizar de forma lógica y jerárquica los contenidos y secciones de la interfaz, facilitando la navegación del usuario y asegurando una experiencia clara, intuitiva y coherente desde el inicio.
 
-Término | Significado     
-| ------------- | -------
-  Login  | acceder a plataforma
+#### Sitemap
+
+Este sitemap representa la arquitectura de información propuesta para nuestro rediseño de GOIKO. Su objetivo es organizar de forma lógica y jerárquica los contenidos y secciones de la interfaz, facilitando la navegación del usuario y asegurando una experiencia clara, intuitiva y coherente desde el inicio. La estructura se articula en torno a las funcionalidades principales detectadas en el análisis de tareas: consulta de carta con filtro de alérgenos, reserva de mesa simplificada, pedido online, la dinámica participativa de la Burger del Mes, y el muro social.
+
+![Sitemap](P2/sitemap.png)
+
+#### Labelling
+
+A continuación se muestra el etiquetado de las principales secciones y elementos de navegación del sitio, con su descripción e icono asociado. Este vocabulario facilita la consistencia de la interfaz y permite su futura internacionalización.
+
+| Término | Significado | Icono |
+| --- | --- | --- |
+| Inicio | Página principal con accesos destacados: Burger del Mes, pedido rápido y muro social | home |
+| Carta | Catálogo completo de productos organizados por categorías | restaurant_menu |
+| Hamburguesas | Sección de la carta con todas las hamburguesas disponibles | lunch_dining |
+| Entrantes | Sección de la carta con entrantes y aperitivos | tapas |
+| Bebidas | Sección de la carta con bebidas disponibles | local_bar |
+| Postres | Sección de la carta con postres | cake |
+| Filtro Alérgenos | Herramienta de filtrado para consultar alérgenos de cada producto | filter_alt |
+| Detalle Producto | Ficha individual de un producto con ingredientes, alérgenos y precio | info |
+| Reservar | Flujo de reserva de mesa en un restaurante GOIKO | calendar_today |
+| Seleccionar Restaurante | Paso de reserva: elegir local por ciudad o ubicación | place |
+| Fecha y Hora | Paso de reserva: seleccionar día y franja horaria | schedule |
+| Comensales | Paso de reserva: indicar número de personas | group |
+| Confirmación Reserva | Pantalla de confirmación con resumen de la reserva | check_circle |
+| Hacer Pedido | Flujo de pedido online para recoger o a domicilio | shopping_bag |
+| Carrito | Resumen de productos seleccionados antes del pago | shopping_cart |
+| Checkout / Pago | Paso final de pedido: datos de envío y método de pago | payment |
+| Confirmación Pedido | Pantalla de confirmación con número de seguimiento del pedido | receipt |
+| Burger del Mes | Sección participativa donde los usuarios votan su hamburguesa favorita | emoji_events |
+| Votación | Pantalla para votar entre las candidatas a Burger del Mes | how_to_vote |
+| Participar en Sorteo | Registro para el sorteo mensual tras haber votado | redeem |
+| Historial Ganadoras | Archivo con las hamburguesas ganadoras de meses anteriores | history |
+| Muro Social | Galería colaborativa con fotos de clientes en los restaurantes | photo_library |
+| Subir Foto | Funcionalidad para compartir una foto propia en el muro social | add_a_photo |
+| MyGOIKO | Área personal del usuario con perfil, pedidos y Club Goiko | person |
+| Mi Perfil | Datos personales, preferencias y configuración de la cuenta | manage_accounts |
+| Club Goiko | Programa de fidelización con puntos y recompensas | loyalty |
+| Puntos y Recompensas | Detalle de puntos acumulados y recompensas canjeables | stars |
+| Mis Pedidos | Historial de pedidos realizados y estado de pedidos activos | inventory |
+| Mis Reservas | Historial y gestión de reservas activas | event_available |
+| Login | Acceso a la plataforma con credenciales de usuario | login |
+| Registro | Creación de una nueva cuenta de usuario | person_add |
+| Recuperar Contraseña | Flujo de restablecimiento de contraseña vía email | lock_reset |
+| Contacto | Información de contacto y formulario de consultas | mail |
+| Sobre Nosotros | Información sobre la marca GOIKO, historia y valores | storefront |
+| FAQ / Soporte | Preguntas frecuentes y centro de ayuda al usuario | help |
 
 
 ### 2.d Wireframes
