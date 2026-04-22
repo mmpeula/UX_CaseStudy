@@ -22,7 +22,7 @@ Esta plataforma de hamburguesas gourmet prioriza una navegación sencilla y visu
 
 Logotipo: 
 
-<img src="P3/logo.png" alt="Logo de Goiko" width="150">
+<img src="P3/logo.png" alt="Logo de Goiko" width="140" height = "140">
 
 Miembros y nombre del equipo:
  * :bust_in_silhouette:  Alberto García Lara       :octocat: https://github.com/albertogxrcia    
@@ -320,10 +320,7 @@ Para la creacion de los warframes se ha utilizado figma con varios de sus assets
 ### 3.a Moodboard
 ![Método UX](img/moodboard.png)
 -----
-
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+Hemos creado un moodboard que muestra nuestras ideas para rediseñar el estilo visual de la empresa GOIKO.
 
 ### 3.b Guidelines
 ![Método UX](img/guidelines.png) 
