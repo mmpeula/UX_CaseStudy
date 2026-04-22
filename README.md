@@ -336,6 +336,9 @@ Hemos creado un moodboard que muestra nuestras ideas para rediseñar el estilo v
 
 >>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
 
+### 3.d Briefing
+----
+
 
 <br>
 
