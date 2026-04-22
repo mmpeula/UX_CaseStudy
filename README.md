@@ -22,7 +22,7 @@ Esta plataforma de hamburguesas gourmet prioriza una navegación sencilla y visu
 
 Logotipo: 
 
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+<img src="P3/logo.png" alt="Logo de Goiko" width="150">
 
 Miembros y nombre del equipo:
  * :bust_in_silhouette:  Alberto García Lara       :octocat: https://github.com/albertogxrcia    
