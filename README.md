@@ -322,6 +322,8 @@ Para la creacion de los warframes se ha utilizado figma con varios de sus assets
 -----
 Hemos creado un moodboard que muestra nuestras ideas para rediseñar el estilo visual de la empresa GOIKO.
 
+![MOODBOARD](P3/Moodboard.png)
+
 ### 3.b Guidelines
 ![Método UX](img/guidelines.png) 
 ----
