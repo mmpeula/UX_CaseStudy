@@ -432,7 +432,19 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 ![Método UX](img/mockup.png) 
 ----
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+[Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
+
+## Átomos
+
+- Botón de Reservar
+- Botón de Hacer Pedido
+- Desplegable para cambiar el idioma
+- Botón de Sesión
+- Logo GOIKO
+- Cruz para salir de una página
+- Color negro del Header: `#0A0A0A`
+- Color Amarilla: `#2A2A2A`
+- Color Gris Fondo Pantalla: `#D4AF37`
 
 ### 3.d Briefing
 ----
