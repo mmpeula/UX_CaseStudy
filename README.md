@@ -426,7 +426,7 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 - Login (`SESIÓN`)
 
  Soluciona problemas de **inconsistencia y navegación** detectados previamente.
-
+📄 [Ver documento: UI Guidelines GOIKO (PDF)](<P3/UI Guidelines_ GOIKO (1).pdf>)
 
 ### 3.c Mockup
 ![Método UX](img/mockup.png) 
