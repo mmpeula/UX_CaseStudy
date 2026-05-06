@@ -328,8 +328,104 @@ Hemos creado un moodboard que muestra nuestras ideas para rediseñar el estilo v
 ![Método UX](img/guidelines.png) 
 ----
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+## 1. Identidad Visual y Design Tokens
+
+El rediseño apuesta por una interfaz **Dark UI** que resalta la fotografía gastronómica, reduciendo la fatiga visual y transmitiendo una sensación premium y moderna.
+
+### Paleta de Colores:
+- **Background (Fondo):**  
+  Tonos grises muy oscuros/negro (ej. `#151515`).  
+  Permite que el contenido resalte sin deslumbrar.
+
+- **Color Primario (Accent):**  
+  Amarillo Goiko (ej. `#EAB308`).  
+  Se utiliza para todos los **Call to Action (CTA)** principales, atrayendo inmediatamente la atención del usuario.
+
+- **Efectos de Énfasis:**  
+  Se ha implementado un efecto **Glow** (resplandor amarillo) alrededor de tipografías destacadas y bordes de tarjetas activas para guiar la vista del usuario hacia la conversión.
+
+### Tipografía:
+- **Headings (Títulos):**  
+  Tipografía Sans-Serif en pesos **extra-bold o black** (apariencia robusta), en **mayúsculas** para las cabeceras principales, aportando un carácter urbano y contundente.
+
+- **Body (Cuerpo):**  
+  Tipografía Sans-Serif limpia y legible (pesos regular/medium) en tonos grises claros o blancos para asegurar la legibilidad de los ingredientes.
+
+---
+
+## 2. Catálogo de Componentes (Sticker Sheet)
+
+### Botones (Buttons):
+- **Primario (Solid):**  
+  Fondo amarillo con texto negro en negrita.  
+  Reservado para las acciones de mayor jerarquía:  
+  `"RESERVAR"`, `"VOTAR"`, `"Finalizar Compra"`.
+
+- **Secundario (Outline):**  
+  Fondo transparente con borde y texto gris/dorado tenue.  
+  Usado para acciones de navegación complementarias:  
+  `"HACER PEDIDO"`, `"SESIÓN"`.
+
+### Tarjetas (Cards):
+- **Voting Card (Vertical):**  
+  Destinada a la sección de la *Hamburguesa del Mes*.  
+  Consta de:
+  - Imagen superior de borde a borde  
+  - Título  
+  - Descripción breve  
+  - Botón primario **full-width** en la base  
+
+- **Menu Card (Horizontal):**  
+  Optimizada para la lectura en listas.  
+  - Imagen cuadrada a la izquierda  
+  - Detalles (título, ingredientes, precio) a la derecha  
+  - Indicador de estado en la esquina inferior derecha  
+    (`"+ AÑADIR"` o número de unidades en amarillo)
+
+### Controles de Formulario e Interacción:
+- **Buscador y Filtros:**  
+  Campos de texto con fondo oscuro y bordes sutiles que se iluminan al interactuar (**estado focus**).  
+  Se apoya en un menú desplegable (**Dropdown**) para los filtros, ahorrando espacio en pantalla.
+
+---
+
+## 3. Patrones de Diseño de Interfaz y Usabilidad (Justificación)
+
+Estas decisiones resuelven los *Pain Points* detectados en el **Usability Review** y benefician directamente a los arquetipos de usuario:
+
+### Módulo de Carrito Persistente (Sticky Sidebar):
+En la vista de *"Hamburguesas"* se observa el **"Resumen del Pedido"** anclado a la derecha.  
+
+- Permite añadir productos  
+- Muestra el total en tiempo real  
+- Evita tener que navegar a otra página  
+
+ Resultado: flujo de **Checkout más rápido**
+
+---
+
+### Gamificación mediante Comparativa Visual (Patrón A/B):
+La sección **"VOTA TU FAVORITA"** utiliza un diseño tipo combate (**"VS" central**) con tarjetas enfrentadas.
+
+- Incentiva la participación de forma intuitiva  
+- Refuerza la hipótesis de generar tráfico mediante sorteos  
+
+---
+
+### Prevención de Errores en la Selección de Cantidades:
+En el carrito y tarjetas de menú se utilizan controles claros de incremento/decremento:
+
+- Permite controlar exactamente lo que se pide  
+- Reduce errores antes del pago  
+
+---
+
+### Navegación Global Consistente (Header):
+El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
+- Cambio de idioma (`ES`)
+- Login (`SESIÓN`)
+
+ Soluciona problemas de **inconsistencia y navegación** detectados previamente.
 
 
 ### 3.c Mockup
