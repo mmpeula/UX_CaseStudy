@@ -340,7 +340,16 @@ Hemos creado un moodboard que muestra nuestras ideas para rediseñar el estilo v
 
 ### 3.d Briefing
 ----
+Resumen del Proceso
+El rediseño de GOIKO se centró en solucionar los problemas que detectamos en la fase de investigación, principalmente la sobrecarga visual y lo tedioso que era el proceso de reserva. Decidimos limpiar la interfaz apostando por un "Modo Oscuro" estructurado en componentes reutilizables. El objetivo era doble: reducir la carga cognitiva para que el usuario pida más rápido e integrar la gamificación (la votación de la hamburguesa) para generar más participación.
 
+Puntos Fuertes del Diseño
+
+Contraste y Dark UI: El fondo oscuro combinado con el "Amarillo Goiko" hace que las fotos de la comida destaquen mucho más y guía instintivamente al usuario hacia botones clave como "Reservar" o "Votar".
+
+Gamificación directa (Patrón VS): El diseño de la sección de la "Hamburguesa del Mes" enfrentando dos opciones es muy visual e invita a interactuar al momento sin tener que leer instrucciones.
+
+Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un lateral soluciona muchas frustraciones. El usuario ve al instante su total y puede editar cantidades sin irse a otra pantalla.
 
 <br>
 
