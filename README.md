@@ -424,6 +424,7 @@ En el carrito y tarjetas de menú se utilizan controles claros de incremento/dec
 El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 - Cambio de idioma (`ES`)
 - Login (`SESIÓN`)
+- Logo (`LOGO`)
 
 ### 3.c Mockup
 ![Método UX](img/mockup.png) 
