@@ -334,11 +334,11 @@ El rediseño apuesta por una interfaz **Dark UI** que resalta la fotografía gas
 
 ### Paleta de Colores:
 - **Background (Fondo):**  
-  Tonos grises muy oscuros/negro (ej. `#151515`).  
+  Tonos grises muy oscuros/negro (ej. `#D4AF37`).  
   Permite que el contenido resalte sin deslumbrar.
 
 - **Color Primario (Accent):**  
-  Amarillo Goiko (ej. `#EAB308`).  
+  Amarillo Goiko (ej. `#2A2A2A`).  
   Se utiliza para todos los **Call to Action (CTA)** principales, atrayendo inmediatamente la atención del usuario.
 
 - **Efectos de Énfasis:**  
@@ -443,7 +443,7 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 - Logo GOIKO
 - Cruz para salir de una página
 - Color negro del Header: `#0A0A0A`
-- Color Amarilla: `#2A2A2A`
+- Color Amarillo: `#2A2A2A`
 - Color Gris Fondo Pantalla: `#D4AF37`
 
 ### 3.d Briefing
