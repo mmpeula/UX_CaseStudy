@@ -468,7 +468,7 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 
 ![ÚneteEquipo](P3/ÚneteEquipo.png)
 
-## 🔗 [Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
+---
 
 ## Átomos
 - Botón de Reservar
@@ -516,6 +516,9 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 - Reservar Mesa
 - Únete al Equipo
 - Menú de navegación
+- 
+
+## 🔗 [Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
 
 ### 3.d Briefing
 ----
@@ -535,18 +538,16 @@ Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un l
 ## Paso 4. Exportación y Documentación 
 
 
-### 4.a Exportación a HTML/React
-![Método UX](img/usabilityReview.png) 
+### 4.a Proceso de Desarrollo
 ----
 
 >>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
 
 
-### 4.b Documentación con Storybook
-![Método UX](img/usabilityReview.png)
+### 4.b WebApp 
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+[WebApp  – Figma](https://www.figma.com/make/FnR33k2IpMwFGiRIOxf5og/E-commerce-Website-Design?fullscreen=1&t=BvFtW02JGBB9JgoM-1&code-node-id=0-9)
 
 
 
