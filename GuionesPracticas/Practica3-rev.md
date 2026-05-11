@@ -73,23 +73,7 @@ El moodboard debe incluir al menos: 
 
 ### 2. [LANDING PAGE] mediante Vibe Coding/Design
 
-​	Diseñar página web de **Onboarding** del proyecto (ya con el estilo de diseño visual seleccionado). 
-
-Recursos:
-
-- [UX Case Study: Crafting an Impactful Landing Page](https://medium.com/design-bootcamp/ux-case-study-crafting-an-impactful-landing-page-71459b082b65)
-- [The UX behind designing landing pages that convert](https://uxplanet.org/the-ux-behind-designing-landing-pages-that-convert-b302ef745c74)
-- [Figma Make](https://www.figma.com/es-es/make/)
-- [Figma Make - Pasos](https://help.figma.com/hc/es-es/articles/31304485164695-Crear-y-editar-un-prototipo-funcional-o-una-aplicación-web)
-
-La “página de aterrizaje” es un tipo de página promocional (de un solo boceto) que incluye: 
-
-- un título (y subtítulo) que sugerentes/motivadores sobre la propuesta de diseño (aplicando UX writing)
-- Algún elemento gráfico de refuerzo (imagen/vídeo) que de fuerza a la idea. Para esta práctica bastaría indicar dónde estaría situado y más o menos qué tipo de contenido aparecería.  
-- Detalle de características beneficios de esta propuesta (1-3) y algún refuerzo emocional para hacer la propuesta deseable 
-- una acción preferente (CTA) que redirige a la app (el enlace por ahora es irrelevante)
-
-Como está realizada con una herramienta IA (**Figma Make / Google Stitch**), se incluirá algun comentarios acerca del proceso de generación de prompts para obtener resultado
+​	(se pasa a ejercicio de clase)
 
 <br>
 
@@ -102,7 +86,7 @@ Creación de un Design System Ligero. En lugar de utilizar frameworks preestable
 - **Recurso recomendado:** (plugin de Figma Ron Nielsen) [Design System Foundation (Community)](https://www.figma.com/es-es/comunidad/file/1007839545438281461/design-system-foundation).
 - Recurso alternativo (plugin Figma para Apps): [Foundation Studio | Design System Generator](https://www.figma.com/community/plugin/1576397531447817254/foundation-studio-design-system-generator)
 - Recurso alternativo (Plugin de Figma)  **Deliverrr** https://www.figma.com/community/plugin/1498225713392045680/deliverrr
-- **Generación Técnica:** Se utilizará el plugin **Foundation** para automatizar la creación de variables de color (escalas 50-900), escalas tipográficas modulares y sistemas de espaciado basados en una rejilla de 8px.
+- **Generación Técnica:** Se utilizará el plugin **Foundation ** para automatizar la creación de variables de color (escalas 50-900), escalas tipográficas modulares y sistemas de espaciado basados en una rejilla de 8px.
 - **Design Tokens:** Los estilos se documentarán como tokens (ej: `color-primary-600` o `space-card-padding`) para permitir una integración directa con configuraciones de Tailwind CSS en React.
 
 Los pasos a seguir son: 
@@ -136,8 +120,7 @@ Recursos:
 
 * IxDF (2021). **_What are Design Systems?_**. IxDF - Interaction Design Foundation. https://www.interaction-design.org/literature/topics/design-systems
 * UX Planet (2023) **Design System — Fundamental principles for designing and developing a robust Design System** https://uxplanet.org/design-system-fundamental-principles-for-designing-and-developing-a-robust-design-system-2265f2c93627
-* **Explore component properties** – Figma Learn - https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties
-  
+
 <br>
 
 ### 4. [LAYOUT HI-FI]
@@ -173,10 +156,9 @@ La documentación se AÑADE al repositorio y se sube una copia de respaldo a PRA
 - Datos identificativos  del equipo
 - Entregables de la práctica: 
 
-* Diseño Visual (15%) 
-* Landing Page (20%) 
+* Diseño Visual (25%) 
 * Design System (20%)
-* Layout+Simulación (40%)
+* Layout+Simulación (25%)
 * Briefing explicando proceso de diseño (5%)
 
 
