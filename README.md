@@ -471,7 +471,6 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 ## 🔗 [Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
 
 ## Átomos
-
 - Botón de Reservar
 - Botón de Hacer Pedido
 - Desplegable para cambiar el idioma
@@ -481,6 +480,42 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 - Color negro del Header: `#0A0A0A`
 - Color Amarillo: `#2A2A2A`
 - Color Gris Fondo Pantalla: `#D4AF37`
+
+## Moléculas
+- Tab de autenticación (Iniciar Sesión / Registrarse)
+- Campo con label
+- Card de producto
+- Card de restaurante
+- Card de pedido
+- Card de reto
+- Bloque de beneficios Mi Goiko
+- Buscador con botón
+- Paginación
+- Formulario de reserva
+
+## Organismos
+- Header global
+- Menú de navegación (overlay)
+- Hero principal
+- Sección Vota tu favorita
+- Footer global
+- Carta (overlay pantalla completa)
+- Sección Hacer Pedido
+- Split Mi Goiko (login/registro)
+- Panel de GoiKoronas y premios
+- Sección de restaurantes
+
+## Plantillas
+- Home
+- Carta Normal
+- Hacer Pedido
+- Login
+- Registro
+- Mi Goiko - Perfil
+- Nuestros Restaurantes
+- Reservar Mesa
+- Únete al Equipo
+- Menú de navegación
 
 ### 3.d Briefing
 ----
