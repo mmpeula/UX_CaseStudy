@@ -430,7 +430,45 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 ![Método UX](img/mockup.png) 
 ----
 
-[Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
+![PáginaPrincipal](P3/PáginaPrincipal.png)
+
+---
+
+![DespliegueLogo](P3/DespliegueLogo.png)
+
+---
+
+![Login](P3/Login.png)
+
+---
+
+![Registro](P3/Registro.png)
+
+---
+
+![MiGOIKO](P3/MiGOIKO.png)
+
+---
+
+![Carta](P3/Carta.png)
+
+---
+
+![HacerPedido](P3/HacerPedido.png)
+
+---
+
+![Reservar](P3/Reservar.png)
+
+---
+
+![NuestrosRestaurantes](P3/NuestrosRestaurantes.png)
+
+---
+
+![ÚneteEquipo](P3/ÚneteEquipo.png)
+
+## 🔗 [Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
 
 ## Átomos
 
