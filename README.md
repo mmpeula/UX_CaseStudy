@@ -539,7 +539,7 @@ Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un l
 ### 4.a Proceso de Desarrollo
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+explicar como hemos usado el figma con los prompt quie le hemos pasado
 
 
 ### 4.b WebApp 
@@ -551,7 +551,7 @@ Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un l
 
 ### 4.c Briefing
 ----
-
+parecido al apartado a, revisasr que pone en el guion de practicas
 
 <br>
 
@@ -569,9 +569,15 @@ A continuación tenemos una tabla con los datos de las personas que han particip
 
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
+| Máximo  | H / 21   | Estudiante  | Alta       | Introvertido | Web.       | A 
+| José | H / 21    | Estudiante  |  Alta       | Timido       | Web        | A 
 | User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
+| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
+| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
+| Marcos  | H / 21    | Abogado     |  Alta         | Emocional    | Web    | B 
+| Alberto | H / 21    | Estudiante  |  Alta       | Racional     | Web        | B 
+| Enrique | H / 21    | Estudiante  |  Alta      | Racional     | Web        | B 
+| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 | User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 
 
