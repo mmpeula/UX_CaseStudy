@@ -515,7 +515,6 @@ El **Header** se mantiene idéntico en todas las pantallas con acceso directo a:
 - Reservar Mesa
 - Únete al Equipo
 - Menú de navegación
-- 
 
 ## 🔗 [Layout Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
 
@@ -562,8 +561,9 @@ Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un l
 ![Método UX](img/usability-testing.png)
 -----
 
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+Se nos ha asignado el grupo  	DIU1.LosPsicomotronic. Link del GitHub:  	https://github.com/RVR05/UX_CaseStudy
+
+A continuación tenemos una tabla con los datos de las personas que han participado en el A/B Testing.
 
 
 
