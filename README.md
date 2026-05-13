@@ -246,7 +246,7 @@ Y hemos mostrado el flujo de tres tareas que consideramos las más importantes:
 
 Este sitemap representa la arquitectura de información propuesta para nuestro rediseño de GOIKO. Su objetivo es organizar de forma lógica y jerárquica los contenidos y secciones de la interfaz, facilitando la navegación del usuario y asegurando una experiencia clara, intuitiva y coherente desde el inicio. La estructura se articula en torno a las funcionalidades principales detectadas en el análisis de tareas: consulta de carta con filtro de alérgenos, reserva de mesa simplificada, pedido online, la dinámica participativa de la Burger del Mes, y el muro social.
 
-![Sitemap](P2/sitemap.png)
+![Sitemap](P2/SiteMap.png)
 
 #### Labelling
 
