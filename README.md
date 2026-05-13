@@ -1,10 +1,9 @@
 # DIU26
 Prácticas Diseño Interfaces de Usuario
 
-* [Guiones de prácticas](GuionesPracticas/)
-* [Guía para crea tu Case Study](Guia_CaseStudy.md)
+* [Enlace a Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
 * Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
-* [Recursos/plantillas en figma](https://www.figma.com/design/BN2IR0q2clOSplfMmalh9K/DIU_Toolkit_Framework--2026-)
+
 
 ## Paso 0 My UX-Case Study
 ![Método UX](img/caseStudy.png) 
