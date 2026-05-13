@@ -1,7 +1,7 @@
 # DIU26
 Prácticas Diseño Interfaces de Usuario
 
-* [Enlace a Figma](https://www.figma.com/proto/ltXS7LyOSZtYAn5hK8yKXQ/GOIKO?node-id=5-445&t=dLFssGuci9s6KtlX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A445)
+* [Nuestra Web](https://cupid-bubble-98659507.figma.site)
 * Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
 
 
@@ -546,7 +546,7 @@ Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un l
 ### 4.b WebApp 
 ----
 
-[WebApp  – Figma](https://www.figma.com/make/FnR33k2IpMwFGiRIOxf5og/E-commerce-Website-Design?fullscreen=1&t=BvFtW02JGBB9JgoM-1&code-node-id=0-9)
+[Nuestra Web](https://cupid-bubble-98659507.figma.site)
 
 
 
