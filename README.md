@@ -532,7 +532,7 @@ Carrito persistente: En la vista de PC, dejar el resumen del pedido fijo en un l
 ### 4.a Proceso de Desarrollo
 ----
 
-explicar como hemos usado el figma con los prompt quie le hemos pasado
+Durante el desarrollo de la práctica, decidimos emplear Figma Make para agilizar la transición del mockup a la web final. Nos centramos en utilizar prompts segmentados, dividiendo el trabajo por partes para asegurar que la inteligencia artificial se concentrara en los detalles específicos que queríamos implementar. Aunque la herramienta ha demostrado un rendimiento excelente en tareas sencillas, notamos que los requerimientos más complejos exigían ser extremadamente cuidadosos con las instrucciones. De este modo, conseguíamos limitar el alcance de la IA a la parte exacta que queríamos alterar, logrando así el diseño y comportamiento deseados
 
 
 ### 4.b WebApp 
@@ -544,7 +544,11 @@ explicar como hemos usado el figma con los prompt quie le hemos pasado
 
 ### 4.c Briefing
 ----
-parecido al apartado a, revisasr que pone en el guion de practicas
+En esta fase el objetivo era dar vida a nuestros diseños y pasarlos a una web con la que se pudiera interactuar. Para no tener que picar todo el código desde cero y ganar algo de tiempo, decidimos utilizar Figma Make. La verdad es que para montar la estructura básica nos vino genial y nos automatizó bastante trabajo de golpe.
+
+Sin embargo, pronto vimos que la herramienta tiene sus límites. Para cosas sencillas iba muy bien, pero en cuanto le pedíamos detalles más específicos, a veces nos descolocaba partes de la interfaz que ya estaban bien hechas. La solución que encontramos fue ir poco a poco: en vez de pedirle pantallas enteras, le fuimos metiendo prompts por partes. Tuvimos que ser muy precisos y cuidadosos con las instrucciones para asegurarnos de que la IA solo tocara el trozo que nos interesaba en ese momento y no rompiera nada más.
+
+Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una WebApp que refleja nuestra idea del principio, con el modo oscuro, el carrito fijo y el sistema de votos. Ha quedado una base bastante chula y funcional.
 
 <br>
 
