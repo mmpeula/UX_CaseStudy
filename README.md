@@ -2,8 +2,6 @@
 Prácticas Diseño Interfaces de Usuario
 
 * [Nuestra Web](https://cupid-bubble-98659507.figma.site)
-* Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
-
 
 ## Paso 0 My UX-Case Study
 ![Método UX](img/caseStudy.png) 
@@ -273,10 +271,6 @@ A continuación se muestra el etiquetado de las principales secciones y elemento
 | Confirmación Pedido | Pantalla de confirmación con número de seguimiento del pedido | receipt |
 | Burger del Mes | Sección participativa donde los usuarios votan su hamburguesa favorita | emoji_events |
 | Votación | Pantalla para votar entre las candidatas a Burger del Mes | how_to_vote |
-| Participar en Sorteo | Registro para el sorteo mensual tras haber votado | redeem |
-| Historial Ganadoras | Archivo con las hamburguesas ganadoras de meses anteriores | history |
-| Muro Social | Galería colaborativa con fotos de clientes en los restaurantes | photo_library |
-| Subir Foto | Funcionalidad para compartir una foto propia en el muro social | add_a_photo |
 | MyGOIKO | Área personal del usuario con perfil, pedidos y Club Goiko | person |
 | Mi Perfil | Datos personales, preferencias y configuración de la cuenta | manage_accounts |
 | Club Goiko | Programa de fidelización con puntos y recompensas | loyalty |
@@ -288,7 +282,6 @@ A continuación se muestra el etiquetado de las principales secciones y elemento
 | Recuperar Contraseña | Flujo de restablecimiento de contraseña vía email | lock_reset |
 | Contacto | Información de contacto y formulario de consultas | mail |
 | Sobre Nosotros | Información sobre la marca GOIKO, historia y valores | storefront |
-| FAQ / Soporte | Preguntas frecuentes y centro de ayuda al usuario | help |
 
 
 ### 2.d Wireframes
@@ -560,40 +553,53 @@ Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una 
 
 Se nos ha asignado el grupo  	DIU1.LosPsicomotronic. Link del GitHub:  	https://github.com/RVR05/UX_CaseStudy
 
-A continuación tenemos una tabla con los datos de las personas que han participado en el A/B Testing.
-
+Como nos ha sido muy difícil conseguir a 10 personas distintas, hemos realizado la prueba con 6. A continuación tenemos una tabla con sus datos:
 
 
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
 | Máximo  | H / 21   | Estudiante  | Alta       | Introvertido | Web.       | A 
-| José | H / 21    | Estudiante  |  Alta       | Timido       | Web        | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| Marcos  | H / 21    | Abogado     |  Alta         | Emocional    | Web    | B 
+| Máximo  | H / 22   | Estudiante  | Alta       | Racional | Web.       | A
+| Amparo | M / 90    | Jubilada |  Baja       | Timida       | Web        | A
+| Marcos  | H / 21    | Estudiante     |  Alta         | Emocional    | Web    | B 
 | Alberto | H / 21    | Estudiante  |  Alta       | Racional     | Web        | B 
-| Enrique | H / 21    | Estudiante  |  Alta      | Racional     | Web        | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
+| Enrique | H / 21    | Estudiante  |  Alta      | Racional     | Web        | B
 
 
 ### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
-
+Se va a realizar un formulario con preguntas de interés general sobre su comportamiento en ámbitos que tienen relación con ambos casos, seguido de un par de actividades para cada caso que se explicarán más abajo junto con su respectivo analisis de eyetracking, y por último el test SUS.
 
 
 ### 5.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
+Aquí se recogen las puntuaciones del test de usabilidad SUS tras el uso de cada prototipo, lo que permite valorar la percepción general de usabilidad por parte de los usuarios.
 
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
+|      | PREGUNTAS                                                    | Máximo    | José    | Amparo    | Marcos    | Alberto    | Enrique |
+| ---- | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1    | Creo que me gustará visitar con frecuencia este website      |      |      |      |      |      |      |
+| 2    | Encontré el website innecesariamente complejo                |      |      |      |      |      |      |
+| 3    | Pensé que era fácil utilizar este website                    |      |      |      |      |      |      |
+| 4    | Creo que necesitaría del apoyo de un experto para recorrer el website |      |      |      |      |      |      |
+| 5    | Encontré las funciones del website bastante bien integradas  |      |      |      |      |      |      |
+| 6    | Pensé que había demasiada inconsistencia en el website       |      |      |      |      |      |      |
+| 7    | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website |      |      |      |      |      |      |
+| 8    | Encontré el website muy grande al recorrerlo                 |      |      |      |      |      |      |
+| 9    | Me sentí muy confiado en el manejo del website               |      |      |      |      |      |      |
+| 10   | Necesito aprender muchas cosas antes de manejarse en el website |      |      |      |      |      |      |
+
+| Usuario | Caso | SUS | Escala lingüística |
+|---------|------|-----|--------------------|
+| Máximo       | A | |  |
+| José         | A |  | |
+| Amparo          | A |  |  |
+| Marcos   | B | | |
+| Alberto  | B | | |
+| Enrique   | B | | |
+| **Media**     | **A / B** | /  | — |
 
 
 ### 5.d A/B Testing
@@ -606,13 +612,22 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 ![Método UX](img/eye-tracking.png)
 ----
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+Este estudio de eye tracking se realizó con el objetivo de analizar el comportamiento visual de los usuarios mientras completan dos tareas diferentes en dos casos distintos. En nuestro caso, se les muestra un par de imágenes relacionadas sobre la actividad que van a realizar para monitorizar los puntos en los que más se fijan, para después analizarlo
+
+## Tareas evaluadas
+
+### Caso A - Rakuin Ramen - Experiencia Seinen
+
+- Ver la carta
+- Hacer una reserva
+- Buscar información sobre el restaurante
 
 
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
 
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
+### Caso B - GOIKO
+- Hacer una reserva
+- Hacer un pedido
+- Votar hamburguesa del mes
 
 
 ### 5.f Usability Report de B
@@ -626,12 +641,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 
 
 
-<br>
-
-## Conclusiones finales & Valoración de las prácticas
-
-
->>> Opinión FINAL del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos. ¿Qué se puede mejorar? Recuerda que este tipo de texto se debe eliminar del template que se os proporciona 
+<br> 
 
 
 
