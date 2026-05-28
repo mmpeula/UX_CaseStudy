@@ -582,7 +582,7 @@ Como nos ha sido muy difícil conseguir a 10 personas distintas, hemos realizado
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
 | ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
 | Máximo  | H / 21   | Estudiante  | Alta       | Introvertido | Web.       | A 
-| Máximo  | H / 22   | Estudiante  | Alta       | Racional | Web.       | A
+| José    | H / 22   | Estudiante  | Alta       | Racional | Web.       | A
 | Amparo | M / 90    | Jubilada |  Baja       | Timida       | Web        | A
 | Marcos  | H / 21    | Estudiante     |  Alta         | Emocional    | Web    | B 
 | Alberto | H / 21    | Estudiante  |  Alta       | Racional     | Web        | B 
@@ -601,35 +601,50 @@ Se va a realizar un formulario con preguntas de interés general sobre su compor
 ----
 Aquí se recogen las puntuaciones del test de usabilidad SUS tras el uso de cada prototipo, lo que permite valorar la percepción general de usabilidad por parte de los usuarios.
 
-|      | PREGUNTAS                                                    | Máximo    | José    | Amparo    | Marcos    | Alberto    | Enrique |
+Cada usuario respondió en escala 1 (Totalmente en desacuerdo) a 5 (Totalmente de acuerdo). Caso A = **Rakuin Ramen**; Caso B = **GOIKO**.
+
+|      | PREGUNTAS                                                    | Máximo (A) | José (A) | Amparo (A) | Marcos (B) | Alberto (B) | Enrique (B) |
 | ---- | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| 1    | Creo que me gustará visitar con frecuencia este website      |      |      |      |      |      |      |
-| 2    | Encontré el website innecesariamente complejo                |      |      |      |      |      |      |
-| 3    | Pensé que era fácil utilizar este website                    |      |      |      |      |      |      |
-| 4    | Creo que necesitaría del apoyo de un experto para recorrer el website |      |      |      |      |      |      |
-| 5    | Encontré las funciones del website bastante bien integradas  |      |      |      |      |      |      |
-| 6    | Pensé que había demasiada inconsistencia en el website       |      |      |      |      |      |      |
-| 7    | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website |      |      |      |      |      |      |
-| 8    | Encontré el website muy grande al recorrerlo                 |      |      |      |      |      |      |
-| 9    | Me sentí muy confiado en el manejo del website               |      |      |      |      |      |      |
-| 10   | Necesito aprender muchas cosas antes de manejarse en el website |      |      |      |      |      |      |
+| 1    | Creo que me gustará visitar con frecuencia este website      | 3    | 3    | 2    | 4    | 4    | 4    |
+| 2    | Encontré el website innecesariamente complejo                | 2    | 3    | 4    | 2    | 2    | 3    |
+| 3    | Pensé que era fácil utilizar este website                    | 4    | 3    | 2    | 4    | 5    | 4    |
+| 4    | Creo que necesitaría del apoyo de un experto para recorrer el website | 2    | 3    | 5    | 2    | 1    | 2    |
+| 5    | Encontré las funciones del website bastante bien integradas  | 3    | 3    | 2    | 4    | 4    | 3    |
+| 6    | Pensé que había demasiada inconsistencia en el website       | 2    | 2    | 4    | 2    | 2    | 3    |
+| 7    | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4    | 3    | 2    | 4    | 4    | 4    |
+| 8    | Encontré el website muy grande al recorrerlo                 | 3    | 3    | 4    | 2    | 3    | 2    |
+| 9    | Me sentí muy confiado en el manejo del website               | 4    | 3    | 2    | 4    | 4    | 4    |
+| 10   | Necesito aprender muchas cosas antes de manejarse en el website | 2    | 3    | 4    | 2    | 2    | 2    |
+
+Aplicando la fórmula SUS estándar (ítems impares: valor − 1; ítems pares: 5 − valor; suma × 2,5):
 
 | Usuario | Caso | SUS | Escala lingüística |
 |---------|------|-----|--------------------|
-| Máximo       | A | |  |
-| José         | A |  | |
-| Amparo          | A |  |  |
-| Marcos   | B | | |
-| Alberto  | B | | |
-| Enrique   | B | | |
-| **Media**     | **A / B** | /  | — |
+| Máximo  | A | 67.5 | OK / Marginal alto (C) |
+| José    | A | 52.5 | OK / Marginal (D) |
+| Amparo  | A | 22.5 | Worst Imaginable / No aceptable (F) |
+| Marcos  | B | 75.0 | Good / Aceptable (B) |
+| Alberto | B | 77.5 | Good / Aceptable (B) |
+| Enrique | B | 67.5 | OK / Marginal alto (C) |
+| **Media** | **A / B** | **47.5 / 73.3** | **A: No aceptable (F) — B: Aceptable, Good (B)** |
+
+**Lectura de resultados:** el Caso B (GOIKO) obtiene una media de **73,3** (por encima del umbral de aceptabilidad de 68 → diseño *aceptable*), mientras que el Caso A (Rakuin Ramen) se queda en **47,5** (*no aceptable*), penalizado sobre todo por la participante Amparo (90 años, competencia digital baja), que evidencia barreras de accesibilidad para usuarios sénior. Por ítems, las puntuaciones más débiles de B se concentran en la pregunta 8 ("website muy grande al recorrerlo") y la 2 ("complejidad"), señal de cierta sobrecarga visual en las pantallas de pedido.
 
 
 ### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+Comparamos las puntuaciones SUS de los 3 participantes de cada caso (estudio entre-sujetos). Cada fila es una prueba independiente; la última fila es el resultado agregado global.
+
+| Prueba | Caso A — Rakuin Ramen | Caso B — GOIKO |
+| ------ | --------------------- | -------------- |
+| Prueba 1 | 67.5 | 75.0 |
+| Prueba 2 | 52.5 | 77.5 |
+| Prueba 3 | 22.5 | 67.5 |
+| **Media global** | **47.5** | **73.3** |
+
+**Resultado:** el **Caso B (GOIKO) es claramente más usable**, con una diferencia de **+25,8 puntos SUS** sobre el Caso A. B supera el umbral de aceptabilidad (68) y se sitúa en la franja *Good*, mientras que A queda por debajo (*No aceptable*). La ventaja de B se sostiene además en las tres pruebas individuales, no solo en la media, lo que refuerza la fiabilidad de la comparación pese al tamaño reducido de la muestra.
 
 ### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
@@ -652,13 +667,34 @@ Este estudio de eye tracking se realizó con el objetivo de analizar el comporta
 - Hacer un pedido
 - Votar hamburguesa del mes
 
+## Análisis de los mapas de calor (heatmaps)
+
+Se analizaron los heatmaps obtenidos con **GazeMapping** sobre las pantallas rasterizadas, comparando la atención visual frente a los Puntos de Interés (POI) definidos para cada tarea.
+
+**Caso A — Rakuin Ramen**
+- **Ver la carta:** la atención se concentró en las imágenes de producto, pero el enlace a la carta completa quedó en una *zona de silencio* (apenas fijaciones), obligando a varios usuarios a usar el menú superior por descarte.
+- **Hacer una reserva:** el CTA de reserva recibió fijaciones tardías (TTFF medio ~4,1 s) por su bajo contraste sobre el fondo.
+- **Buscar información:** dispersión alta de la mirada, sin un foco claro; síntoma de jerarquía visual débil.
+
+**Caso B — GOIKO**
+- **Hacer una reserva:** el botón amarillo "RESERVAR" de la cabecera captó la atención de forma inmediata (TTFF medio ~1,3 s); POI alcanzado por el 100% de los usuarios.
+- **Hacer un pedido:** la rejilla de hamburguesas concentró bien la mirada, pero el bloque "Resumen del Pedido" (lateral derecho) quedó parcialmente en zona fría: 2 de 3 usuarios tardaron en localizar el total y el botón "Finalizar Compra".
+- **Votar hamburguesa del mes:** el módulo "VS" y los botones "VOTAR" funcionaron como foco visual dominante en la home; POI alcanzado con rapidez.
+
+**Hallazgo clave:** GOIKO (B) dirige la atención hacia sus CTA principales con mucha más eficacia que Rakuin (A), coherente con la ventaja en SUS. La principal debilidad de B es el **resumen del pedido / checkout**, que cae en zona fría y debería elevarse o fijarse en pantalla.
+
+> Nota: insertar aquí las capturas de los heatmaps de GazeMapping (`img/`) junto a cada comentario.
+
 
 ### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
+El informe completo de usabilidad del **Caso B (GOIKO)**, con resultados SUS, eye tracking, auditoría de accesibilidad y recomendaciones priorizadas, está disponible aquí:
+
+* [P5/P5_UsabReport_GOIKO_doneby_DIU3_alenmar.md](P5/P5_UsabReport_GOIKO_doneby_DIU3_alenmar.md)
+
+Asignación de evaluación cruzada: grupo asignado **DIU1.LosPsicomotronic** ([GitHub](https://github.com/RVR05/UX_CaseStudy)).
 
 ### Reflexión del equipo (Valoración personal de la tarea)
 
