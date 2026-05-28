@@ -543,6 +543,29 @@ Sin embargo, pronto vimos que la herramienta tiene sus límites. Para cosas senc
 
 Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una WebApp que refleja nuestra idea del principio, con el modo oscuro, el carrito fijo y el sistema de votos. Ha quedado una base bastante chula y funcional.
 
+
+### 4.d Exportación a React (Componentes UI)
+----
+
+Para tangibilizar el prototipo en un entorno de producción real, hemos exportado el diseño de **Figma Make** a una aplicación **React** con código fuente editable. El bundle exportado utiliza un stack moderno de componentes:
+
+* **Vite** como entorno de build y servidor de desarrollo.
+* **React 18** + **TypeScript**.
+* **Tailwind CSS v4** como motor de estilos *utility-first*.
+* **shadcn/ui** (sobre **Radix UI**) como librería de componentes accesibles y reutilizables.
+* **Lucide** como librería de iconos.
+
+El código está disponible en la carpeta [`P4/React/goiko-react`](P4/React/goiko-react). Los componentes propios de la interfaz (`Header`, `Footer`, `GoikoLogo`, `HeroSection`, `VotingSection`, `MyGoikoSection`) se apoyan en el *UI Kit* de shadcn (`button`, `card`, `dialog`, `tabs`, etc.), manteniendo la coherencia visual y el sistema de diseño definido en pasos anteriores.
+
+Para ejecutarlo en local:
+
+```bash
+cd P4/React/goiko-react
+npm install
+npm run dev     # servidor de desarrollo en http://localhost:5173
+npm run build   # build de producción en dist/
+```
+
 <br>
 
 ## Paso 5. Pruebas de Evaluación 
@@ -637,9 +660,37 @@ Este estudio de eye tracking se realizó con el objetivo de analizar el comporta
 >>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
 >>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
 
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
+### Reflexión del equipo (Valoración personal de la tarea)
 
+Evaluar de forma cruzada un proyecto de un dominio distinto al nuestro (en nuestro caso, ejercer de equipo evaluador del Caso B siendo nosotros una hamburguesería gourmet) nos ha obligado a diseñar tareas equivalentes y medibles para ambas propuestas. Esto ha sido el ejercicio más formativo de toda la práctica: nos ha enseñado a separar nuestra opinión estética del comportamiento real del usuario, apoyándonos en datos objetivos (tiempos, clics, mapas de calor y puntuación SUS) en lugar de intuiciones.
 
+Hemos comprobado empíricamente que la **jerarquía visual** y la **economía de clics** son factores decisivos: el usuario tolera detalles secundarios, pero abandona el sitio si se frustra al buscar un producto o al completar el pedido o la reserva.
+
+<br>
+
+## Conclusiones finales & Valoración del proceso UX
+
+El desarrollo de **GOIKO** a lo largo de estas prácticas siguiendo la metodología UX ha cambiado por completo nuestra forma de enfocar el diseño de un producto digital. Hemos pasado de partir de "lo que nos parecía atractivo" a justificar cada decisión con investigación previa y validación con usuarios reales.
+
+* **Investigación (Paso 1):** El *User Research Plan*, el *Competitive Analysis* (Goiko frente a Mostaza Green y Kiko Undefiled Burger) y las *personas* de David y Sofy nos permitieron detectar el problema central: la **saturación visual** y la fricción en el flujo de reserva. Definir dos perfiles opuestos (nativo digital frente a usuario que prioriza seguridad y alérgenos) orientó todas las decisiones posteriores.
+* **Diseño y prototipado (Pasos 2 y 3):** El paso de *wireframes* a prototipo de alta fidelidad nos obligó a aplicar unos *guidelines* consistentes. Funciones como el **modo oscuro**, el **carrito fijo** y el **sistema de votación de la hamburguesa del mes** nacieron de las necesidades reales identificadas, no de añadidos decorativos.
+* **Exportación a web (Paso 4):** Usar **Figma Make** agilizó mucho montar la estructura base, pero nos enseñó sus límites: en peticiones complejas rompía partes ya correctas. La solución (prompts segmentados y muy precisos) fue una lección práctica sobre cómo acotar el alcance de la IA.
+* **Evaluación (Paso 5):** El **A/B testing**, el **eye tracking** y el cálculo del **SUS** cerraron el ciclo demostrando con datos el valor del diseño, y la **auditoría de accesibilidad** (WCAG/Lighthouse/WAVE) nos hizo conscientes de problemas que la vista no detecta (contraste, navegación por teclado, etiquetas `alt`).
+
+### Valoración global (positiva / negativa)
+
+**Positivo:** La metodología UX nos ha dado un marco para argumentar con datos en vez de opiniones. La fase de investigación inicial fue la más rentable: invertir tiempo al principio evitó rehacer trabajo después. El testeo con usuarios reales destapó problemas de usabilidad que ninguno del equipo habría anticipado.
+
+**Negativo / dificultades:** El **reclutamiento** fue el mayor obstáculo (no llegamos a los 10 usuarios objetivo, sino a 6, lo que reduce la robustez estadística del estudio). El *eye tracking* sobre imágenes estáticas es una aproximación limitada frente a un seguimiento ocular real, y Figma Make introdujo fricción en los requisitos más complejos.
+
+### ¿Qué se puede mejorar?
+
+1. **Muestra más amplia y diversa** de usuarios para que el análisis SUS y el A/B testing sean estadísticamente más fiables, con mejor contrabalanceo en las pruebas intra-sujeto.
+2. **Accesibilidad más exigente:** validar con lector de pantalla real y revisión manual, no solo herramientas automáticas, apuntando a conformidad WCAG AA completa.
+3. **Iterar sobre el prototipo** aplicando las recomendaciones del *Usability Report* (contraste, reducción de pasos en el checkout, jerarquía del CTA) y volver a medir para comprobar la mejora.
+4. **Reducir la dependencia de la IA** en la exportación, revisando y corrigiendo el código generado para garantizar consistencia y rendimiento.
+
+En conjunto, la experiencia ha sido muy positiva: las metodologías aprendidas son una base sólida para nuestro futuro desarrollo de productos centrados en el usuario.
 
 <br> 
 

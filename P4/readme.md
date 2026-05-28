@@ -15,3 +15,39 @@ Se dispone del Template de usability.gob (https://www.usability.gov/how-to-and-t
 
 >>>> Este fichero se debe editar para que cada evidencia quede enlazada con el recurso subido a la carpeta de la practica. Se pide más detalle técnico en las descripciones de lo que sería el README principal del repositorio y que corresponde a la descripcion del Case Study.
 >>>> Termine con la seccion de Conclusiones para aportar una valoración final del equipo sobre la propia realización de la práctica
+
+---
+
+## Exportación a React (Componentes UI)
+
+Código fuente: [`React/goiko-react`](React/goiko-react)
+
+El diseño de la WebApp se ha exportado desde **Figma Make** a un proyecto React funcional. Stack técnico:
+
+| Capa | Tecnología |
+| ---- | ---------- |
+| Build / dev server | **Vite 6** |
+| Framework | **React 18** + **TypeScript** |
+| Estilos | **Tailwind CSS v4** (`@tailwindcss/vite`) |
+| Componentes UI | **shadcn/ui** sobre **Radix UI** |
+| Iconos | **Lucide** (`lucide-react`) |
+
+**Estructura del código:**
+
+* `src/main.tsx` — punto de entrada (monta `<App />` en `#root`).
+* `src/app/App.tsx` — composición de la web completa.
+* `src/app/components/` — componentes propios: `Header`, `Footer`, `GoikoLogo`, `HeroSection`, `VotingSection`, `MyGoikoSection`.
+* `src/app/components/ui/` — UI Kit de shadcn/ui (botones, cards, diálogos, tabs, formularios, etc.).
+* `src/imports/` — pantallas importadas desde Figma (PáginaPrincipal, Reservar, Carta, HacerPedido, MyGoiko, DesplegableDelLogo).
+* `src/styles/` — tema, tipografías y configuración de Tailwind.
+
+**Cómo ejecutarlo:**
+
+```bash
+cd React/goiko-react
+npm install
+npm run dev     # http://localhost:5173
+npm run build   # genera dist/
+```
+
+Build de producción verificado correctamente (`vite build` → `dist/`).
