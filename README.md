@@ -556,7 +556,7 @@ npm run dev     # servidor de desarrollo en http://localhost:5173
 npm run build   # build de producción en dist/
 ```
 
-### 4.c Briefing
+### 4.d Briefing
 ----
 En esta fase el objetivo era dar vida a nuestros diseños y pasarlos a una web con la que se pudiera interactuar. Para no tener que picar todo el código desde cero y ganar algo de tiempo, decidimos utilizar Figma Make. La verdad es que para montar la estructura básica nos vino genial y nos automatizó bastante trabajo de golpe.
 
@@ -572,20 +572,17 @@ Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una 
 ![Método UX](img/usability-testing.png)
 -----
 
-Siguiendo la asignación oficial de A/B Testing del curso, nuestro equipo (**DIU3.alenmar**, autor del **Caso A = GOIKO**) tiene asignada la evaluación cruzada del grupo **DIU1.LosPsicomotronic**, cuya propuesta constituye el **Caso B = Rakuin Ramen — Experiencia Seinen**, un restaurante de ramen con estética *seinen* sobria. Repositorio del Caso B: [https://github.com/RVR05/UX_CaseStudy](https://github.com/RVR05/UX_CaseStudy) · Prototipo evaluado: [https://palm-many-78395995.figma.site](https://palm-many-78395995.figma.site).
+Se nos ha asignado el grupo  	DIU1.LosPsicomotronic. Link del GitHub:  	https://github.com/RVR05/UX_CaseStudy
+Como nos ha sido muy difícil conseguir a 10 personas distintas, hemos realizado la prueba con 6. A continuación tenemos una tabla con sus datos:
 
-El estudio se planteó como un **diseño entre-sujetos (*between-subjects*)**: cada participante evalúa **solo uno** de los dos casos, de modo que se evita el sesgo de aprendizaje entre interfaces. El objetivo eran 10 usuarios (5 por caso), pero por las dificultades habituales de reclutamiento alcanzamos **6 participantes (3 por caso)**, número que el propio guion contempla como muestra reducida. Asumimos esta limitación de forma explícita: los datos se interpretan como **tendencia**, no como resultado estadísticamente concluyente.
-
-Los datos se recogieron de forma anonimizada (IDs P01–P06) mediante **Tally.so**. Además de los datos demográficos básicos, se registró el **nivel de competencia digital** —factor decisivo para entender la fricción— y, para los participantes del eye tracking, las condiciones técnicas que pueden alterar el mapa de calor (uso de gafas, iluminación y dispositivo), detalladas en el apartado 5.e.
-
-| ID  | Nombre  | Sexo/Edad | Ocupación  | Competencia digital | Personalidad | Plataforma | Caso              |
-| --- | ------- | --------- | ---------- | ------------------- | ------------ | ---------- | ----------------- |
-| P01 | Máximo  | H / 21    | Estudiante | Alta                | Introvertido | Web        | A — GOIKO         |
-| P02 | José    | H / 22    | Estudiante | Alta                | Racional     | Web        | A — GOIKO         |
-| P03 | Enrique | H / 21    | Estudiante | Alta                | Racional     | Web        | A — GOIKO         |
-| P04 | Marcos  | H / 21    | Estudiante | Alta                | Emocional    | Web        | B — Rakuin Ramen  |
-| P05 | Alberto | H / 21    | Estudiante | Alta                | Racional     | Web        | B — Rakuin Ramen  |
-| P06 | Amparo  | M / 68    | Jubilada   | Baja                | Tímida       | Web        | B — Rakuin Ramen  |
+| Nombre  | Sexo/Edad | Ocupación  | Competencia digital | Personalidad | Plataforma | Caso              |
+| ------- | --------- | ---------- | ------------------- | ------------ | ---------- | ----------------- |
+| Máximo  | H / 21    | Estudiante | Alta                | Introvertido | Web        | A — GOIKO         |
+| José    | H / 22    | Estudiante | Alta                | Racional     | Web        | A — GOIKO         |
+| Enrique | H / 21    | Estudiante | Alta                | Racional     | Web        | A — GOIKO         |
+| Marcos  | H / 21    | Estudiante | Alta                | Emocional    | Web        | B — Rakuin Ramen  |
+| Alberto | H / 21    | Estudiante | Alta                | Racional     | Web        | B — Rakuin Ramen  |
+| Amparo  | M / 68    | Jubilada   | Baja                | Tímida       | Web        | B — Rakuin Ramen  |
 
 La muestra del Caso B incluye deliberadamente a una participante **sénior con baja competencia digital** (P06) para someter a prueba la accesibilidad del prototipo de ramen ante un perfil alejado del usuario nativo digital. Su comportamiento resulta especialmente revelador para la auditoría de accesibilidad del apartado 5.f. Como ningún participante evalúa ambos casos, no fue necesario aplicar contrabalanceo; a cambio, asumimos la menor potencia estadística propia de una muestra pequeña.
 
@@ -652,9 +649,9 @@ Aplicando la fórmula SUS estándar (ítems impares: valor − 1; ítems pares: 
 | **Media A** | **GOIKO**        | **82.5** | **Aceptable — Excellent (A)**  |
 | **Media B** | **Rakuin Ramen** | **73.3** | **Aceptable — Good (B)**       |
 
-**Lectura de resultados:** ambos diseños superan el umbral de aceptabilidad de **68**, por lo que los dos se consideran *aceptables*. El **Caso A (GOIKO)** obtiene una media de **82,5** (franja *Excellent*, equivalente a **8,3/10**), mientras que el **Caso B (Rakuin Ramen)** alcanza **73,3** (franja *Good*, **7,3/10**). La diferencia (**+9,2 puntos** a favor de A) es consistente pero moderada: ambas son soluciones sólidas y usables, y GOIKO destaca sobre todo por la **uniformidad** de sus valoraciones.
+**Lectura de resultados:** ambos diseños superan el umbral de aceptabilidad de **68**, por lo que los dos se consideran *aceptables*. El **Caso A (GOIKO)** obtiene una media de **82,5**, mientras que el **Caso B (Rakuin Ramen)** alcanza **73,3**. La diferencia (**+9,2 puntos** a favor de A) es consistente pero moderada: ambas son soluciones sólidas y usables, y GOIKO destaca sobre todo por la **uniformidad** de sus valoraciones.
 
-Por ítems, el Caso B es muy homogéneo entre los usuarios de competencia digital alta (P04 y P05) y concentra sus puntuaciones más bajas en la participante sénior (P06): ítem 3 (*facilidad de uso*), ítem 8 (*"website muy grande al recorrerlo"*) e ítem 4 (*necesidad de apoyo de un experto*). Esto indica que Rakuin Ramen funciona muy bien para el usuario nativo digital, pero **eleva la barrera de entrada para perfiles sénior o de baja competencia** —hallazgo que retomamos en la auditoría de accesibilidad—. En el Caso A las valoraciones son altas y consistentes en los tres participantes, sin ítems claramente penalizados.
+Por ítems, el Caso B es muy homogéneo entre los usuarios de competencia digital alta y concentra sus puntuaciones más bajas en la participante sénior: ítem 3 (*facilidad de uso*), ítem 8 (*"website muy grande al recorrerlo"*) e ítem 4 (*necesidad de apoyo de un experto*). Esto indica que Rakuin Ramen funciona muy bien para el usuario nativo digital, pero **eleva la barrera de entrada para perfiles sénior o de baja competencia** —hallazgo que retomamos en la auditoría de accesibilidad—. En el Caso A las valoraciones son altas y consistentes en los tres participantes, sin ítems claramente penalizados.
 
 
 ### 5.d A/B Testing
@@ -670,7 +667,7 @@ Comparamos las puntuaciones SUS de los 3 participantes de cada caso (estudio **e
 | Prueba 3         | 80.0           | 62.5                  |
 | **Media global** | **82.5**       | **73.3**              |
 
-**Resultado:** el **Caso A (GOIKO) resulta más usable**, con **+9,2 puntos SUS** sobre el Caso B. Ambos diseños son *aceptables* (por encima de 68): GOIKO se sitúa en la franja *Excellent* y Rakuin Ramen en *Good*. Conviene subrayar que, al tratarse de un estudio **entre-sujetos**, las filas **no son medidas pareadas** —cada puntuación procede de un participante distinto—. La mayor dispersión del Caso B (62,5–80,0) se explica por la inclusión de la participante sénior (P06); entre usuarios de perfil equivalente (competencia digital alta), la diferencia entre ambos diseños se reduce a unos **5 puntos**, lo que confirma que Rakuin Ramen es una propuesta competitiva y que la brecha principal está en la accesibilidad para perfiles no expertos.
+**Resultado:** el **Caso A (GOIKO) resulta más usable**, con **+9,2 puntos SUS** sobre el Caso B. Ambos diseños son *aceptables* (por encima de 68). Conviene subrayar que, al tratarse de un estudio **entre-sujetos**, las filas **no son medidas pareadas** —cada puntuación procede de un participante distinto—. La mayor dispersión del Caso B (62,5–80,0) se explica por la inclusión de la participante sénior ; entre usuarios de perfil equivalente (competencia digital alta), la diferencia entre ambos diseños se reduce a unos **5 puntos**, lo que confirma que Rakuin Ramen es una propuesta competitiva y que la brecha principal está en la accesibilidad para perfiles no expertos.
 
 
 ### 5.e Aplicación del método Eye Tracking 
@@ -686,8 +683,6 @@ Las condiciones técnicas registradas (factores que pueden alterar el mapa de ca
 | P04 Marcos   | No                      | Luz artificial neutra | Portátil 15" / 1920×1080   |
 | P05 Alberto  | Sí (gafas)              | Luz natural diurna    | Monitor 24" / 1920×1080    |
 | P06 Amparo   | Sí (gafas progresivas)  | Luz artificial tenue  | Portátil 15" / 1920×1080   |
-
-Por limitaciones de tiempo, el seguimiento ocular se priorizó para los **3 participantes del Caso B** (mínimo recomendado por el guion), garantizando datos cualitativos suficientes para el análisis visual del diseño evaluado.
 
 ## Puntos de Interés (POI) definidos
 
@@ -707,7 +702,7 @@ Por limitaciones de tiempo, el seguimiento ocular se priorizó para los **3 part
 
 **Hallazgos del mapa de calor (Caso B — Rakuin Ramen):**
 
-- **POI alcanzados:** el logotipo y el menú de navegación superior reciben fijaciones inmediatas (TTFF ≈ 1 s). La estética *seinen* sobria concentra bien la atención en la cabecera, sin el "ruido" de un diseño *shōnen* recargado.
+- **POI alcanzados:** el logotipo y el menú de navegación superior reciben fijaciones inmediatas.
 - **Carta:** la tarea de ver la carta se resuelve con fluidez una vez localizado el enlace del menú, pero **2 de 3 usuarios** dudan al inicio porque el acceso compite visualmente con el *hero*.
 - **Zonas de silencio:** la **"Especialidad del chef"** y el **filtro de alérgenos** quedan fríos —están por debajo del pliegue y reciben fijaciones tardías—; la información "*Sobre Nosotros*" y de contacto del pie se ignora hasta que se busca expresamente.
 - **Hallazgo clave:** Rakuin Ramen dirige bien la mirada hacia la marca y la navegación, pero **los contenidos diferenciales (especialidad del chef, alérgenos) pierden foco visual por su ubicación**, lo que concuerda con la sensación de "website grande" del ítem 8 del SUS y con las dudas de la participante sénior.
@@ -722,15 +717,6 @@ El informe completo de usabilidad del **Caso B (Rakuin Ramen — DIU1.LosPsicomo
 * **Usability Report:** [P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md)
 * **Informe de accesibilidad (anexo):** [P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md)
 * **Memoria de la práctica:** [P5/P5_Memoria_DIU3_alenmar.md](P5/P5_Memoria_DIU3_alenmar.md)
-
-Asignación de evaluación cruzada (oficial): **DIU3.alenmar → DIU1.LosPsicomotronic** ([GitHub del Caso B](https://github.com/RVR05/UX_CaseStudy)).
-
-### Reflexión del equipo (Valoración personal de la tarea)
-
-Evaluar de forma cruzada un proyecto de un dominio distinto al nuestro (ejercer de equipo evaluador del Caso B —un restaurante de ramen— siendo nosotros una hamburguesería gourmet) nos ha obligado a diseñar tareas equivalentes y medibles para ambas propuestas. Esto ha sido el ejercicio más formativo de toda la práctica: nos ha enseñado a separar nuestra opinión estética del comportamiento real del usuario, apoyándonos en datos objetivos (tiempos, clics, mapas de calor y puntuación SUS) en lugar de intuiciones.
-
-Hemos comprobado empíricamente que la **jerarquía visual** y la **economía de clics** son factores decisivos: el usuario tolera detalles secundarios, pero abandona el sitio si se frustra al buscar un producto o al completar el pedido o la reserva. También hemos visto que un diseño puede ser excelente para el usuario nativo digital (Rakuin Ramen puntúa muy alto en P04 y P05) y, al mismo tiempo, levantar barreras notables para perfiles sénior, algo que solo se hace visible cuando se incluye diversidad en la muestra.
-
 
 ## Conclusiones finales & Valoración del proceso UX
 
