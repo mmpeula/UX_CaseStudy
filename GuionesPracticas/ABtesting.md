@@ -105,3 +105,24 @@ Actualizado a 10/05/2026
 | DIU3.Juashani          | DIU2.LecheConCafe      |
 | DIU3.DarkPatterns      | DIU3.ColesterMax       |
 | DIU3.Los_Proyectados   | DIU1.Los_visionarios   |
+
+
+
+#### **CASOS B DE EMERGENCIA** 
+
+(**si no es posible evaluar el CASO B**) elegid uno de estas ALTERNATIVAS
+
+
+
+| ALTERNATIVOS | Equipo                | GRUPO |
+| ------------ | --------------------- | ----- |
+| ALT-1        | DIU1.LosPsicomotronic | DIU1  |
+| ALT-2        | DIU2.Errores404       | DIU2  |
+| ALT-3        | DIU3.GECV             | DIU3  |
+| ALT-3        | DIU1.SP               | DIU1  |
+| ALT-4        | DIU2.Monki            | DIU2  |
+| ALT-5        | DIU3.RESCUE           | DIU3  |
+| ALT-6        |                       |       |
+| ALT-7        | DIU2.Wax&Wayne        | DIU2  |
+| ALT-8        |                       |       |
+
