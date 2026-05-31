@@ -716,7 +716,6 @@ El informe completo de usabilidad del **Caso B (Rakuin Ramen — DIU1.LosPsicomo
 
 * **Usability Report:** [P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md)
 * **Informe de accesibilidad (anexo):** [P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md)
-* **Memoria de la práctica:** [P5/P5_Memoria_DIU3_alenmar.md](P5/P5_Memoria_DIU3_alenmar.md)
 
 ## Conclusiones finales & Valoración del proceso UX
 
