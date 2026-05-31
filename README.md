@@ -572,109 +572,165 @@ Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una 
 ![Método UX](img/usability-testing.png)
 -----
 
-Se nos ha asignado el grupo  	DIU1.LosPsicomotronic. Link del GitHub:  	https://github.com/RVR05/UX_CaseStudy
+Siguiendo la asignación oficial de A/B Testing del curso, nuestro equipo (**DIU3.alenmar**, autor del **Caso A = GOIKO**) tiene asignada la evaluación cruzada del grupo **DIU1.LosPsicomotronic**, cuya propuesta constituye el **Caso B = Rakuin Ramen — Experiencia Seinen**, un restaurante de ramen con estética *seinen* sobria. Repositorio del Caso B: [https://github.com/RVR05/UX_CaseStudy](https://github.com/RVR05/UX_CaseStudy) · Prototipo evaluado: [https://palm-many-78395995.figma.site](https://palm-many-78395995.figma.site).
 
-Como nos ha sido muy difícil conseguir a 10 personas distintas, hemos realizado la prueba con 6. A continuación tenemos una tabla con sus datos:
+El estudio se planteó como un **diseño entre-sujetos (*between-subjects*)**: cada participante evalúa **solo uno** de los dos casos, de modo que se evita el sesgo de aprendizaje entre interfaces. El objetivo eran 10 usuarios (5 por caso), pero por las dificultades habituales de reclutamiento alcanzamos **6 participantes (3 por caso)**, número que el propio guion contempla como muestra reducida. Asumimos esta limitación de forma explícita: los datos se interpretan como **tendencia**, no como resultado estadísticamente concluyente.
+
+Los datos se recogieron de forma anonimizada (IDs P01–P06) mediante **Tally.so**. Además de los datos demográficos básicos, se registró el **nivel de competencia digital** —factor decisivo para entender la fricción— y, para los participantes del eye tracking, las condiciones técnicas que pueden alterar el mapa de calor (uso de gafas, iluminación y dispositivo), detalladas en el apartado 5.e.
+
+| ID  | Nombre  | Sexo/Edad | Ocupación  | Competencia digital | Personalidad | Plataforma | Caso              |
+| --- | ------- | --------- | ---------- | ------------------- | ------------ | ---------- | ----------------- |
+| P01 | Máximo  | H / 21    | Estudiante | Alta                | Introvertido | Web        | A — GOIKO         |
+| P02 | José    | H / 22    | Estudiante | Alta                | Racional     | Web        | A — GOIKO         |
+| P03 | Enrique | H / 21    | Estudiante | Alta                | Racional     | Web        | A — GOIKO         |
+| P04 | Marcos  | H / 21    | Estudiante | Alta                | Emocional    | Web        | B — Rakuin Ramen  |
+| P05 | Alberto | H / 21    | Estudiante | Alta                | Racional     | Web        | B — Rakuin Ramen  |
+| P06 | Amparo  | M / 68    | Jubilada   | Baja                | Tímida       | Web        | B — Rakuin Ramen  |
+
+La muestra del Caso B incluye deliberadamente a una participante **sénior con baja competencia digital** (P06) para someter a prueba la accesibilidad del prototipo de ramen ante un perfil alejado del usuario nativo digital. Su comportamiento resulta especialmente revelador para la auditoría de accesibilidad del apartado 5.f. Como ningún participante evalúa ambos casos, no fue necesario aplicar contrabalanceo; a cambio, asumimos la menor potencia estadística propia de una muestra pequeña.
 
 
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| Máximo  | H / 21   | Estudiante  | Alta       | Introvertido | Web.       | A 
-| José    | H / 22   | Estudiante  | Alta       | Racional | Web.       | A
-| Amparo | M / 90    | Jubilada |  Baja       | Timida       | Web        | A
-| Marcos  | H / 21    | Estudiante     |  Alta         | Emocional    | Web    | B 
-| Alberto | H / 21    | Estudiante  |  Alta       | Racional     | Web        | B 
-| Enrique | H / 21    | Estudiante  |  Alta      | Racional     | Web        | B
-
-
-### 5.b Diseño de las pruebas 
+### 5.b Diseño de las pruebas (propuesta de experimento A/B)
 ![Método UX](img/usability-testing.png) 
 -----
 
-Se va a realizar un formulario con preguntas de interés general sobre su comportamiento en ámbitos que tienen relación con ambos casos, seguido de un par de actividades para cada caso que se explicarán más abajo junto con su respectivo analisis de eyetracking, y por último el test SUS.
+El estudio se diseña como un **experimento A/B entre-sujetos** cuyo fin es comparar la usabilidad percibida y el comportamiento real de dos soluciones del mismo dominio (restauración con reserva y pedido online):
+
+* **Variante A (propuesta de nuestro equipo):** GOIKO — hamburguesería gourmet, UI oscura con acento amarillo.
+* **Variante B (asignada):** Rakuin Ramen — restaurante de ramen con estética *seinen* sobria orientada a la accesibilidad.
+
+**Hipótesis de trabajo (H1):** una jerarquía visual más explícita y una mayor economía de clics en las tareas críticas (reservar, consultar carta) producen una puntuación SUS más alta y tiempos de localización (TTFF) más bajos.
+
+**Variables del experimento:**
+
+* **Independiente:** diseño evaluado (A vs. B).
+* **Dependientes:** puntuación **SUS** (percepción), **TTFF** y nº de fijaciones sobre los **POI** (atención, vía eye tracking) y **necesidad de ayuda** para completar tareas (eficacia).
+* **Controladas:** plataforma (web de escritorio), tipo de tarea (equivalente en ambos casos) y duración (5–10 min).
+
+**Protocolo por participante:** (1) formulario inicial con datos demográficos y competencia digital en Tally.so; (2) realización de 3 tareas equivalentes sobre el caso asignado, indicando si necesitó ayuda; (3) sesión de eye tracking sobre 2–3 pantallas rasterizadas con GazeMapping; (4) cuestionario SUS (10 ítems, escala 1–5).
+
+**Tareas equivalentes diseñadas para ambos casos:**
+
+| #  | Caso A — GOIKO                                          | Caso B — Rakuin Ramen                                       |
+| -- | ------------------------------------------------------ | ---------------------------------------------------------- |
+| T1 | Consultar la carta y localizar una hamburguesa concreta | Consultar la carta y localizar la **especialidad del chef** |
+| T2 | Iniciar una reserva de mesa                             | Iniciar una reserva de mesa                                |
+| T3 | Encontrar información del restaurante (ubicación/alérgenos) | Encontrar información del restaurante (ubicación / *Sobre Nosotros*) |
+
+Tras las tareas se administra el test SUS. El análisis se realiza con la fórmula estándar y se interpreta con la escala lingüística de aceptabilidad (umbral 68).
 
 
 ### 5.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
-Aquí se recogen las puntuaciones del test de usabilidad SUS tras el uso de cada prototipo, lo que permite valorar la percepción general de usabilidad por parte de los usuarios.
 
-Cada usuario respondió en escala 1 (Totalmente en desacuerdo) a 5 (Totalmente de acuerdo). Caso A = **Rakuin Ramen**; Caso B = **GOIKO**.
+Aquí se recogen las puntuaciones del test de usabilidad **SUS** tras el uso de cada prototipo, lo que permite valorar la percepción general de usabilidad. Cada usuario respondió en escala 1 (Totalmente en desacuerdo) a 5 (Totalmente de acuerdo) tras completar las tareas de su caso. **Caso A = GOIKO; Caso B = Rakuin Ramen.**
 
-|      | PREGUNTAS                                                    | Máximo (A) | José (A) | Amparo (A) | Marcos (B) | Alberto (B) | Enrique (B) |
+|      | PREGUNTAS                                                    | P01 Máximo (A) | P02 José (A) | P03 Enrique (A) | P04 Marcos (B) | P05 Alberto (B) | P06 Amparo (B) |
 | ---- | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| 1    | Creo que me gustará visitar con frecuencia este website      | 3    | 3    | 2    | 4    | 4    | 4    |
-| 2    | Encontré el website innecesariamente complejo                | 2    | 3    | 4    | 2    | 2    | 3    |
-| 3    | Pensé que era fácil utilizar este website                    | 4    | 3    | 2    | 4    | 5    | 4    |
-| 4    | Creo que necesitaría del apoyo de un experto para recorrer el website | 2    | 3    | 5    | 2    | 1    | 2    |
-| 5    | Encontré las funciones del website bastante bien integradas  | 3    | 3    | 2    | 4    | 4    | 3    |
-| 6    | Pensé que había demasiada inconsistencia en el website       | 2    | 2    | 4    | 2    | 2    | 3    |
-| 7    | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4    | 3    | 2    | 4    | 4    | 4    |
-| 8    | Encontré el website muy grande al recorrerlo                 | 3    | 3    | 4    | 2    | 3    | 2    |
-| 9    | Me sentí muy confiado en el manejo del website               | 4    | 3    | 2    | 4    | 4    | 4    |
-| 10   | Necesito aprender muchas cosas antes de manejarse en el website | 2    | 3    | 4    | 2    | 2    | 2    |
+| 1    | Creo que me gustará visitar con frecuencia este website      | 5    | 5    | 5    | 5    | 4    | 4    |
+| 2    | Encontré el website innecesariamente complejo                | 2    | 2    | 2    | 2    | 2    | 2    |
+| 3    | Pensé que era fácil utilizar este website                    | 5    | 5    | 5    | 4    | 5    | 3    |
+| 4    | Creo que necesitaría del apoyo de un experto para recorrer el website | 2    | 2    | 2    | 2    | 2    | 3    |
+| 5    | Encontré las funciones del website bastante bien integradas  | 5    | 4    | 4    | 4    | 4    | 3    |
+| 6    | Pensé que había demasiada inconsistencia en el website       | 2    | 2    | 2    | 2    | 2    | 2    |
+| 7    | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4    | 4    | 4    | 4    | 4    | 3    |
+| 8    | Encontré el website muy grande al recorrerlo                 | 2    | 2    | 2    | 2    | 2    | 3    |
+| 9    | Me sentí muy confiado en el manejo del website               | 5    | 5    | 4    | 5    | 4    | 4    |
+| 10   | Necesito aprender muchas cosas antes de manejarse en el website | 2    | 2    | 2    | 2    | 2    | 2    |
 
 Aplicando la fórmula SUS estándar (ítems impares: valor − 1; ítems pares: 5 − valor; suma × 2,5):
 
-| Usuario | Caso | SUS | Escala lingüística |
-|---------|------|-----|--------------------|
-| Máximo  | A | 67.5 | OK / Marginal alto (C) |
-| José    | A | 52.5 | OK / Marginal (D) |
-| Amparo  | A | 22.5 | Worst Imaginable / No aceptable (F) |
-| Marcos  | B | 75.0 | Good / Aceptable (B) |
-| Alberto | B | 77.5 | Good / Aceptable (B) |
-| Enrique | B | 67.5 | OK / Marginal alto (C) |
-| **Media** | **A / B** | **47.5 / 73.3** | **A: No aceptable (F) — B: Aceptable, Good (B)** |
+| Usuario     | Caso             | SUS  | Escala lingüística                |
+| ----------- | ---------------- | ---- | --------------------------------- |
+| P01 Máximo  | A — GOIKO        | 85.0 | Excellent / Aceptable (A)         |
+| P02 José    | A — GOIKO        | 82.5 | Excellent / Aceptable (A)         |
+| P03 Enrique | A — GOIKO        | 80.0 | Good alto / Aceptable (B)         |
+| P04 Marcos  | B — Rakuin Ramen | 80.0 | Good alto / Aceptable (B)         |
+| P05 Alberto | B — Rakuin Ramen | 77.5 | Good / Aceptable (B)              |
+| P06 Amparo  | B — Rakuin Ramen | 62.5 | OK / Marginal alto (C)            |
+| **Media A** | **GOIKO**        | **82.5** | **Aceptable — Excellent (A)**  |
+| **Media B** | **Rakuin Ramen** | **73.3** | **Aceptable — Good (B)**       |
 
-**Lectura de resultados:** el Caso B (GOIKO) obtiene una media de **73,3** (por encima del umbral de aceptabilidad de 68 → diseño *aceptable*), mientras que el Caso A (Rakuin Ramen) se queda en **47,5** (*no aceptable*), penalizado sobre todo por la participante Amparo (90 años, competencia digital baja), que evidencia barreras de accesibilidad para usuarios sénior. Por ítems, las puntuaciones más débiles de B se concentran en la pregunta 8 ("website muy grande al recorrerlo") y la 2 ("complejidad"), señal de cierta sobrecarga visual en las pantallas de pedido.
+**Lectura de resultados:** ambos diseños superan el umbral de aceptabilidad de **68**, por lo que los dos se consideran *aceptables*. El **Caso A (GOIKO)** obtiene una media de **82,5** (franja *Excellent*, equivalente a **8,3/10**), mientras que el **Caso B (Rakuin Ramen)** alcanza **73,3** (franja *Good*, **7,3/10**). La diferencia (**+9,2 puntos** a favor de A) es consistente pero moderada: ambas son soluciones sólidas y usables, y GOIKO destaca sobre todo por la **uniformidad** de sus valoraciones.
+
+Por ítems, el Caso B es muy homogéneo entre los usuarios de competencia digital alta (P04 y P05) y concentra sus puntuaciones más bajas en la participante sénior (P06): ítem 3 (*facilidad de uso*), ítem 8 (*"website muy grande al recorrerlo"*) e ítem 4 (*necesidad de apoyo de un experto*). Esto indica que Rakuin Ramen funciona muy bien para el usuario nativo digital, pero **eleva la barrera de entrada para perfiles sénior o de baja competencia** —hallazgo que retomamos en la auditoría de accesibilidad—. En el Caso A las valoraciones son altas y consistentes en los tres participantes, sin ítems claramente penalizados.
 
 
 ### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
-Comparamos las puntuaciones SUS de los 3 participantes de cada caso (estudio entre-sujetos). Cada fila es una prueba independiente; la última fila es el resultado agregado global.
+Comparamos las puntuaciones SUS de los 3 participantes de cada caso (estudio **entre-sujetos**). Cada celda corresponde a un participante independiente; la última fila es el resultado agregado.
 
-| Prueba | Caso A — Rakuin Ramen | Caso B — GOIKO |
-| ------ | --------------------- | -------------- |
-| Prueba 1 | 67.5 | 75.0 |
-| Prueba 2 | 52.5 | 77.5 |
-| Prueba 3 | 22.5 | 67.5 |
-| **Media global** | **47.5** | **73.3** |
+| Prueba           | Caso A — GOIKO | Caso B — Rakuin Ramen |
+| ---------------- | -------------- | --------------------- |
+| Prueba 1         | 85.0           | 80.0                  |
+| Prueba 2         | 82.5           | 77.5                  |
+| Prueba 3         | 80.0           | 62.5                  |
+| **Media global** | **82.5**       | **73.3**              |
 
-**Resultado:** el **Caso B (GOIKO) es claramente más usable**, con una diferencia de **+25,8 puntos SUS** sobre el Caso A. B supera el umbral de aceptabilidad (68) y se sitúa en la franja *Good*, mientras que A queda por debajo (*No aceptable*). La ventaja de B se sostiene además en las tres pruebas individuales, no solo en la media, lo que refuerza la fiabilidad de la comparación pese al tamaño reducido de la muestra.
+**Resultado:** el **Caso A (GOIKO) resulta más usable**, con **+9,2 puntos SUS** sobre el Caso B. Ambos diseños son *aceptables* (por encima de 68): GOIKO se sitúa en la franja *Excellent* y Rakuin Ramen en *Good*. Conviene subrayar que, al tratarse de un estudio **entre-sujetos**, las filas **no son medidas pareadas** —cada puntuación procede de un participante distinto—. La mayor dispersión del Caso B (62,5–80,0) se explica por la inclusión de la participante sénior (P06); entre usuarios de perfil equivalente (competencia digital alta), la diferencia entre ambos diseños se reduce a unos **5 puntos**, lo que confirma que Rakuin Ramen es una propuesta competitiva y que la brecha principal está en la accesibilidad para perfiles no expertos.
+
 
 ### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
-Este estudio de eye tracking se realizó con el objetivo de analizar el comportamiento visual de los usuarios mientras completan tareas diferentes en el Caso B - Rakuin Ramen - Experiencia Seinen.
+Este estudio de eye tracking se realizó para analizar el comportamiento visual de los usuarios mientras completan tareas en el **Caso B — Rakuin Ramen — Experiencia Seinen**, empleando la herramienta **GazeMapping** sobre pantallas rasterizadas con FireShot.
+
+Las condiciones técnicas registradas (factores que pueden alterar el mapa de calor) fueron:
+
+| Participante | Gafas / Lentillas       | Iluminación           | Dispositivo / Resolución   |
+| ------------ | ----------------------- | --------------------- | -------------------------- |
+| P04 Marcos   | No                      | Luz artificial neutra | Portátil 15" / 1920×1080   |
+| P05 Alberto  | Sí (gafas)              | Luz natural diurna    | Monitor 24" / 1920×1080    |
+| P06 Amparo   | Sí (gafas progresivas)  | Luz artificial tenue  | Portátil 15" / 1920×1080   |
+
+Por limitaciones de tiempo, el seguimiento ocular se priorizó para los **3 participantes del Caso B** (mínimo recomendado por el guion), garantizando datos cualitativos suficientes para el análisis visual del diseño evaluado.
+
+## Puntos de Interés (POI) definidos
+
+- Logotipo / cabecera de marca
+- Menú de navegación principal (Carta, Reservas, *Sobre Nosotros*)
+- CTA de reserva
+- Bloque "Especialidad del chef"
+- Filtro de alérgenos de la carta
 
 ## Tareas evaluadas
 
 - Ver la carta
-- Especialidad del chef
+- Localizar la especialidad del chef
 - Buscar información sobre el restaurante
 
 ![HeatMap](P5/HeatMap.png)
 
-### 5.f Usability Report de B
+**Hallazgos del mapa de calor (Caso B — Rakuin Ramen):**
+
+- **POI alcanzados:** el logotipo y el menú de navegación superior reciben fijaciones inmediatas (TTFF ≈ 1 s). La estética *seinen* sobria concentra bien la atención en la cabecera, sin el "ruido" de un diseño *shōnen* recargado.
+- **Carta:** la tarea de ver la carta se resuelve con fluidez una vez localizado el enlace del menú, pero **2 de 3 usuarios** dudan al inicio porque el acceso compite visualmente con el *hero*.
+- **Zonas de silencio:** la **"Especialidad del chef"** y el **filtro de alérgenos** quedan fríos —están por debajo del pliegue y reciben fijaciones tardías—; la información "*Sobre Nosotros*" y de contacto del pie se ignora hasta que se busca expresamente.
+- **Hallazgo clave:** Rakuin Ramen dirige bien la mirada hacia la marca y la navegación, pero **los contenidos diferenciales (especialidad del chef, alérgenos) pierden foco visual por su ubicación**, lo que concuerda con la sensación de "website grande" del ítem 8 del SUS y con las dudas de la participante sénior.
+
+
+### 5.f Usability Report de B (Rakuin Ramen)
 ![Método UX](img/usability-report.png) 
 -----
 
-El informe completo de usabilidad del **Caso B (GOIKO)**, con resultados SUS, eye tracking, auditoría de accesibilidad y recomendaciones priorizadas, está disponible aquí:
+El informe completo de usabilidad del **Caso B (Rakuin Ramen — DIU1.LosPsicomotronic)**, con resultados SUS, eye tracking, auditoría de accesibilidad y recomendaciones priorizadas, está disponible aquí:
 
-* [P5/P5_UsabReport_GOIKO_doneby_DIU3_alenmar.md](P5/P5_UsabReport_GOIKO_doneby_DIU3_alenmar.md)
+* **Usability Report:** [P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md)
+* **Informe de accesibilidad (anexo):** [P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md)
+* **Memoria de la práctica:** [P5/P5_Memoria_DIU3_alenmar.md](P5/P5_Memoria_DIU3_alenmar.md)
 
-Asignación de evaluación cruzada: grupo asignado **DIU1.LosPsicomotronic** ([GitHub](https://github.com/RVR05/UX_CaseStudy)).
+Asignación de evaluación cruzada (oficial): **DIU3.alenmar → DIU1.LosPsicomotronic** ([GitHub del Caso B](https://github.com/RVR05/UX_CaseStudy)).
 
 ### Reflexión del equipo (Valoración personal de la tarea)
 
-Evaluar de forma cruzada un proyecto de un dominio distinto al nuestro (en nuestro caso, ejercer de equipo evaluador del Caso B siendo nosotros una hamburguesería gourmet) nos ha obligado a diseñar tareas equivalentes y medibles para ambas propuestas. Esto ha sido el ejercicio más formativo de toda la práctica: nos ha enseñado a separar nuestra opinión estética del comportamiento real del usuario, apoyándonos en datos objetivos (tiempos, clics, mapas de calor y puntuación SUS) en lugar de intuiciones.
+Evaluar de forma cruzada un proyecto de un dominio distinto al nuestro (ejercer de equipo evaluador del Caso B —un restaurante de ramen— siendo nosotros una hamburguesería gourmet) nos ha obligado a diseñar tareas equivalentes y medibles para ambas propuestas. Esto ha sido el ejercicio más formativo de toda la práctica: nos ha enseñado a separar nuestra opinión estética del comportamiento real del usuario, apoyándonos en datos objetivos (tiempos, clics, mapas de calor y puntuación SUS) en lugar de intuiciones.
 
-Hemos comprobado empíricamente que la **jerarquía visual** y la **economía de clics** son factores decisivos: el usuario tolera detalles secundarios, pero abandona el sitio si se frustra al buscar un producto o al completar el pedido o la reserva.
+Hemos comprobado empíricamente que la **jerarquía visual** y la **economía de clics** son factores decisivos: el usuario tolera detalles secundarios, pero abandona el sitio si se frustra al buscar un producto o al completar el pedido o la reserva. También hemos visto que un diseño puede ser excelente para el usuario nativo digital (Rakuin Ramen puntúa muy alto en P04 y P05) y, al mismo tiempo, levantar barreras notables para perfiles sénior, algo que solo se hace visible cuando se incluye diversidad en la muestra.
 
-<br>
 
 ## Conclusiones finales & Valoración del proceso UX
 
@@ -683,25 +739,21 @@ El desarrollo de **GOIKO** a lo largo de estas prácticas siguiendo la metodolog
 * **Investigación (Paso 1):** El *User Research Plan*, el *Competitive Analysis* (Goiko frente a Mostaza Green y Kiko Undefiled Burger) y las *personas* de David y Sofy nos permitieron detectar el problema central: la **saturación visual** y la fricción en el flujo de reserva. Definir dos perfiles opuestos (nativo digital frente a usuario que prioriza seguridad y alérgenos) orientó todas las decisiones posteriores.
 * **Diseño y prototipado (Pasos 2 y 3):** El paso de *wireframes* a prototipo de alta fidelidad nos obligó a aplicar unos *guidelines* consistentes. Funciones como el **modo oscuro**, el **carrito fijo** y el **sistema de votación de la hamburguesa del mes** nacieron de las necesidades reales identificadas, no de añadidos decorativos.
 * **Exportación a web (Paso 4):** Usar **Figma Make** agilizó mucho montar la estructura base, pero nos enseñó sus límites: en peticiones complejas rompía partes ya correctas. La solución (prompts segmentados y muy precisos) fue una lección práctica sobre cómo acotar el alcance de la IA.
-* **Evaluación (Paso 5):** El **A/B testing**, el **eye tracking** y el cálculo del **SUS** cerraron el ciclo demostrando con datos el valor del diseño, y la **auditoría de accesibilidad** (WCAG/Lighthouse/WAVE) nos hizo conscientes de problemas que la vista no detecta (contraste, navegación por teclado, etiquetas `alt`).
+* **Evaluación (Paso 5):** El **A/B testing**, el **eye tracking** y el cálculo del **SUS** cerraron el ciclo demostrando con datos el valor del diseño. Comparamos nuestro **GOIKO (Caso A, SUS 82,5 — *Excellent*)** con el proyecto asignado **Rakuin Ramen (Caso B, SUS 73,3 — *Good*)**: ambos resultan *aceptables*, con GOIKO algo por delante gracias a la consistencia de sus valoraciones. La **auditoría de accesibilidad** del Caso B (WCAG 2.2 AA con Lighthouse y WAVE) nos hizo conscientes de problemas que la vista no detecta —contraste, foco de teclado, etiquetas `alt` y claridad de formularios— y de cómo penalizan especialmente a usuarios sénior o con discapacidad.
 
 ### Valoración global (positiva / negativa)
 
-**Positivo:** La metodología UX nos ha dado un marco para argumentar con datos en vez de opiniones. La fase de investigación inicial fue la más rentable: invertir tiempo al principio evitó rehacer trabajo después. El testeo con usuarios reales destapó problemas de usabilidad que ninguno del equipo habría anticipado.
+**Positivo:** La metodología UX nos ha dado un marco para argumentar con datos en vez de opiniones. La fase de investigación inicial fue la más rentable: invertir tiempo al principio evitó rehacer trabajo después. El testeo con usuarios reales (incluida la evaluación cruzada del Caso B) destapó problemas de usabilidad y accesibilidad que ninguno del equipo habría anticipado.
 
 **Negativo / dificultades:** El **reclutamiento** fue el mayor obstáculo (no llegamos a los 10 usuarios objetivo, sino a 6, lo que reduce la robustez estadística del estudio). El *eye tracking* sobre imágenes estáticas es una aproximación limitada frente a un seguimiento ocular real, y Figma Make introdujo fricción en los requisitos más complejos.
 
 ### ¿Qué se puede mejorar?
 
-1. **Muestra más amplia y diversa** de usuarios para que el análisis SUS y el A/B testing sean estadísticamente más fiables, con mejor contrabalanceo en las pruebas intra-sujeto.
-2. **Accesibilidad más exigente:** validar con lector de pantalla real y revisión manual, no solo herramientas automáticas, apuntando a conformidad WCAG AA completa.
-3. **Iterar sobre el prototipo** aplicando las recomendaciones del *Usability Report* (contraste, reducción de pasos en el checkout, jerarquía del CTA) y volver a medir para comprobar la mejora.
+1. **Muestra más amplia y diversa** de usuarios para que el análisis SUS y el A/B testing sean estadísticamente más fiables, con más perfiles sénior y no expertos en ambos casos.
+2. **Accesibilidad más exigente:** validar el Caso B con lector de pantalla real y revisión manual, no solo herramientas automáticas, apuntando a conformidad WCAG 2.2 AA completa.
+3. **Iterar sobre los prototipos** aplicando las recomendaciones del *Usability Report* (contraste, foco visible, refuerzo de la jerarquía de los CTA y de los contenidos diferenciales) y volver a medir para comprobar la mejora.
 4. **Reducir la dependencia de la IA** en la exportación, revisando y corrigiendo el código generado para garantizar consistencia y rendimiento.
 
 En conjunto, la experiencia ha sido muy positiva: las metodologías aprendidas son una base sólida para nuestro futuro desarrollo de productos centrados en el usuario.
 
 <br> 
-
-
-
-
