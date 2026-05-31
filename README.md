@@ -652,18 +652,16 @@ Este estudio de eye tracking se realizó con el objetivo de analizar el comporta
 
 ## Tareas evaluadas
 
-### Caso A - Rakuin Ramen - Experiencia Seinen
-
-- Ver la carta
-- Hacer una reserva
-- Buscar información sobre el restaurante
-
-
-
 ### Caso B - GOIKO
 - Hacer una reserva
 - Hacer un pedido
 - Votar hamburguesa del mes
+
+### Caso B - Rakuin Ramen - Experiencia Seinen
+
+- Ver la carta
+- Hacer una reserva
+- Buscar información sobre el restaurante
 
 ## Análisis de los mapas de calor (heatmaps)
 
