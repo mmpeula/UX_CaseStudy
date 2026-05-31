@@ -648,39 +648,15 @@ Comparamos las puntuaciones SUS de los 3 participantes de cada caso (estudio ent
 ![Método UX](img/eye-tracking.png)
 ----
 
-Este estudio de eye tracking se realizó con el objetivo de analizar el comportamiento visual de los usuarios mientras completan dos tareas diferentes en dos casos distintos. En nuestro caso, se les muestra un par de imágenes relacionadas sobre la actividad que van a realizar para monitorizar los puntos en los que más se fijan, para después analizarlo
+Este estudio de eye tracking se realizó con el objetivo de analizar el comportamiento visual de los usuarios mientras completan tareas diferentes en el Caso B - Rakuin Ramen - Experiencia Seinen.
 
 ## Tareas evaluadas
 
-### Caso B - GOIKO
-- Hacer una reserva
-- Hacer un pedido
-- Votar hamburguesa del mes
-
-### Caso B - Rakuin Ramen - Experiencia Seinen
-
 - Ver la carta
-- Hacer una reserva
+- Especialidad del chef
 - Buscar información sobre el restaurante
 
-## Análisis de los mapas de calor (heatmaps)
-
-Se analizaron los heatmaps obtenidos con **GazeMapping** sobre las pantallas rasterizadas, comparando la atención visual frente a los Puntos de Interés (POI) definidos para cada tarea.
-
-**Caso A — Rakuin Ramen**
-- **Ver la carta:** la atención se concentró en las imágenes de producto, pero el enlace a la carta completa quedó en una *zona de silencio* (apenas fijaciones), obligando a varios usuarios a usar el menú superior por descarte.
-- **Hacer una reserva:** el CTA de reserva recibió fijaciones tardías (TTFF medio ~4,1 s) por su bajo contraste sobre el fondo.
-- **Buscar información:** dispersión alta de la mirada, sin un foco claro; síntoma de jerarquía visual débil.
-
-**Caso B — GOIKO**
-- **Hacer una reserva:** el botón amarillo "RESERVAR" de la cabecera captó la atención de forma inmediata (TTFF medio ~1,3 s); POI alcanzado por el 100% de los usuarios.
-- **Hacer un pedido:** la rejilla de hamburguesas concentró bien la mirada, pero el bloque "Resumen del Pedido" (lateral derecho) quedó parcialmente en zona fría: 2 de 3 usuarios tardaron en localizar el total y el botón "Finalizar Compra".
-- **Votar hamburguesa del mes:** el módulo "VS" y los botones "VOTAR" funcionaron como foco visual dominante en la home; POI alcanzado con rapidez.
-
-**Hallazgo clave:** GOIKO (B) dirige la atención hacia sus CTA principales con mucha más eficacia que Rakuin (A), coherente con la ventaja en SUS. La principal debilidad de B es el **resumen del pedido / checkout**, que cae en zona fría y debería elevarse o fijarse en pantalla.
-
-> Nota: insertar aquí las capturas de los heatmaps de GazeMapping (`img/`) junto a cada comentario.
-
+![HeatMap](P5/HeatMap.png)
 
 ### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
