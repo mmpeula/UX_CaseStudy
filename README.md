@@ -534,17 +534,7 @@ Durante el desarrollo de la práctica, decidimos emplear Figma Make para agiliza
 [Nuestra Web](https://cupid-bubble-98659507.figma.site)
 
 
-
-### 4.c Briefing
-----
-En esta fase el objetivo era dar vida a nuestros diseños y pasarlos a una web con la que se pudiera interactuar. Para no tener que picar todo el código desde cero y ganar algo de tiempo, decidimos utilizar Figma Make. La verdad es que para montar la estructura básica nos vino genial y nos automatizó bastante trabajo de golpe.
-
-Sin embargo, pronto vimos que la herramienta tiene sus límites. Para cosas sencillas iba muy bien, pero en cuanto le pedíamos detalles más específicos, a veces nos descolocaba partes de la interfaz que ya estaban bien hechas. La solución que encontramos fue ir poco a poco: en vez de pedirle pantallas enteras, le fuimos metiendo prompts por partes. Tuvimos que ser muy precisos y cuidadosos con las instrucciones para asegurarnos de que la IA solo tocara el trozo que nos interesaba en ese momento y no rompiera nada más.
-
-Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una WebApp que refleja nuestra idea del principio, con el modo oscuro, el carrito fijo y el sistema de votos. Ha quedado una base bastante chula y funcional.
-
-
-### 4.d Exportación a React (Componentes UI)
+### 4.c Exportación a React (Componentes UI)
 ----
 
 Para tangibilizar el prototipo en un entorno de producción real, hemos exportado el diseño de **Figma Make** a una aplicación **React** con código fuente editable. El bundle exportado utiliza un stack moderno de componentes:
@@ -565,6 +555,14 @@ npm install
 npm run dev     # servidor de desarrollo en http://localhost:5173
 npm run build   # build de producción en dist/
 ```
+
+### 4.c Briefing
+----
+En esta fase el objetivo era dar vida a nuestros diseños y pasarlos a una web con la que se pudiera interactuar. Para no tener que picar todo el código desde cero y ganar algo de tiempo, decidimos utilizar Figma Make. La verdad es que para montar la estructura básica nos vino genial y nos automatizó bastante trabajo de golpe.
+
+Sin embargo, pronto vimos que la herramienta tiene sus límites. Para cosas sencillas iba muy bien, pero en cuanto le pedíamos detalles más específicos, a veces nos descolocaba partes de la interfaz que ya estaban bien hechas. La solución que encontramos fue ir poco a poco: en vez de pedirle pantallas enteras, le fuimos metiendo prompts por partes. Tuvimos que ser muy precisos y cuidadosos con las instrucciones para asegurarnos de que la IA solo tocara el trozo que nos interesaba en ese momento y no rompiera nada más.
+
+Al final, controlando bastante lo que le pedíamos, hemos conseguido montar una WebApp que refleja nuestra idea del principio, con el modo oscuro, el carrito fijo y el sistema de votos. Ha quedado una base bastante chula y funcional.
 
 <br>
 
