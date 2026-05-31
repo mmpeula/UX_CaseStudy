@@ -715,7 +715,6 @@ Las condiciones técnicas registradas (factores que pueden alterar el mapa de ca
 El informe completo de usabilidad del **Caso B (Rakuin Ramen — DIU1.LosPsicomotronic)**, con resultados SUS, eye tracking, auditoría de accesibilidad y recomendaciones priorizadas, está disponible aquí:
 
 * **Usability Report:** [P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_UsabReport_RakuinRamen_doneby_DIU3_alenmar.md)
-* **Informe de accesibilidad (anexo):** [P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md](P5/P5_AccessibilityReport_RakuinRamen_doneby_DIU3_alenmar.md)
 
 ## Conclusiones finales & Valoración del proceso UX
 
